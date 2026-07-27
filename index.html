@@ -480,6 +480,9 @@ html[dir="rtl"] #marker{transform-origin:right}
   color:var(--fg-3);font-size:13px;display:flex;gap:var(--s4);flex-wrap:wrap;align-items:baseline}
 .sitefoot a{color:var(--fg-2)}
 .sitefoot .sp{margin-left:auto}
+.sitenav{display:flex;gap:var(--s4);flex-wrap:wrap;align-items:baseline}
+.sitenav a{border-bottom:1px solid var(--line-2);padding-bottom:1px;transition:color .2s,border-color .2s}
+.sitenav a:hover{color:var(--signal);border-color:var(--signal)}
 .langs{display:flex;gap:var(--s3);flex-wrap:wrap;align-items:baseline}
 .langs-label{color:var(--fg-3)}
 .langs a{border-bottom:1px solid var(--line-2);padding-bottom:1px;transition:color .2s,border-color .2s}
@@ -581,6 +584,7 @@ html[dir="rtl"] #marker{transform-origin:right}
   ]
 }
 </script>
+
 </head>
 <body class="blank">
 
@@ -752,6 +756,11 @@ html[dir="rtl"] #marker{transform-origin:right}
 
 <footer class="sitefoot">
   <span>Aloud — text to speech, teleprompter and dictation. Runs in your browser.</span>
+  <nav class="sitenav" aria-label="Language">
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/about/">About</a>
+  </nav>
   <nav class="langs" aria-label="Language">
     <span class="langs-label">Language:</span>
     <a href="/ar/" hreflang="ar" lang="ar">العربية</a>

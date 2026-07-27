@@ -248,5 +248,217 @@
         "a": "Ja. Jede auf Ihrem Gerät installierte Stimme wird mit ihrem Sprachcode aufgeführt, wobei Ihre eigenen Sprachen zuerst gruppiert sind. Wählen Sie eine Stimme in dieser Sprache, und der Text wird darin vorgelesen. Die gewählte Stimme bestimmt auch, welche Sprache das Diktat hört."
       }
     ]
+  },
+  "docs": {
+    "backNav": "Das Werkzeug",
+    "privacy": {
+      "nav": "Datenschutz",
+      "title": "Datenschutzerklärung",
+      "description": "Was Aloud erhebt und was nicht. Sprachausgabe und Teleprompter laufen vollständig auf Ihrem Gerät; Diktat und Werbung sind die Ausnahmen und werden hier erklärt.",
+      "stamp": "Gültig ab {{effectiveDate}} · betrieben von {{operator}}",
+      "blocks": [
+        {
+          "p": "Diese Erklärung gilt für <strong>{{origin}}</strong> und alle Sprachfassungen. Sie ist zum Lesen geschrieben, nicht zum Überstehen."
+        },
+        {
+          "h2": "Die kurze Fassung"
+        },
+        {
+          "note": "Aloud hat keinen Server, keine Konten und keine Datenbank. Der Text, den Sie eingeben oder einfügen, wird nirgendwohin gesendet. Nur zwei Dinge verlassen Ihr Gerät: <strong>Audio während des Diktierens</strong> und die gewöhnlichen Anfragen, die jede Website erhält. Beides steht unten."
+        },
+        {
+          "h2": "Was gespeichert wird und wo"
+        },
+        {
+          "p": "Ihr Text, die gewählte Stimme, das Design und der zuletzt genutzte Modus liegen im <code>localStorage</code> Ihres Browsers, also auf Ihrem eigenen Rechner. Wir können ihn nicht lesen, er wird nie übertragen, und er folgt Ihnen weder auf ein anderes Gerät noch in einen anderen Browser."
+        },
+        {
+          "p": "Sie können das jederzeit über die Schaltfläche <strong>in diesem Browser gespeichert</strong> in der Fußzeile des Werkzeugs abschalten. Das Abschalten löscht auch, was bereits gespeichert war. Das Leeren der Browserdaten entfernt es ebenfalls."
+        },
+        {
+          "p": "Wir führen weder Konten noch eine Nutzerdatenbank, weil es dafür keinen Ort gibt."
+        },
+        {
+          "h2": "Das Diktat sendet Audio an den Hersteller Ihres Browsers"
+        },
+        {
+          "p": "Beim Diktieren transkribiert Ihr Browser die Sprache über die Web-Spracherkennungs-API. In Chrome und Edge geschieht das, indem Mikrofon-Audio an die Server von Google beziehungsweise Microsoft übertragen wird. So setzen diese Browser die Funktion um; es ist keine Entscheidung von Aloud, und wir erhalten weder das Audio noch die Abschrift. Für den Umgang damit gelten deren Datenschutzerklärungen, nicht unsere."
+        },
+        {
+          "p": "Bei ausgeschaltetem Diktat wird nichts aufgezeichnet, und das Mikrofon wird freigegeben, sobald Sie stoppen. <strong>Diktieren Sie nichts Vertrauliches.</strong>"
+        },
+        {
+          "h2": "Hosting und Server-Logs"
+        },
+        {
+          "p": "Die Website wird von Vercel ausgeliefert. Wie jeder Webhoster protokolliert Vercel gewöhnliche Anfragedaten wie IP-Adresse, Zeitpunkt, angefragte Seite und User-Agent, um die Seite auszuliefern und vor Missbrauch zu schützen. Wir führen diese Protokolle mit nichts zusammen und können sie keiner Person zuordnen."
+        },
+        {
+          "h2": "Schriften und Dritte"
+        },
+        {
+          "p": "Die Schriften werden von dieser Website selbst ausgeliefert und nicht von Google Fonts. Das Laden einer Seite gibt Ihre IP-Adresse also an keinen Schriftanbieter weiter. Abgesehen vom Hosting, von Werbung sofern aktiviert und von den oben beschriebenen Sprachdiensten des Browsers stellt die Seite keine Anfragen an Dritte."
+        },
+        {
+          "h2": "Werbung und Cookies"
+        },
+        {
+          "p": "Aloud setzt keine eigenen Cookies und verwendet keine Analysewerkzeuge."
+        },
+        {
+          "p": "Ist auf dieser Seite Werbung aktiviert, wird sie von Google AdSense ausgeliefert. Google und seine Partner können dann Cookies setzen oder Gerätekennungen auslesen, um Anzeigen auszuliefern und zu messen, einschließlich personalisierter Anzeigen, sofern Sie eingewilligt haben. Googles Umgang mit Werbe-Cookies ist in den <a href=\"https://policies.google.com/technologies/ads\" rel=\"nofollow noopener\" target=\"_blank\">Werberichtlinien</a> beschrieben; Ihre Einstellungen können Sie unter <a href=\"https://myadcenter.google.com\" rel=\"nofollow noopener\" target=\"_blank\">My Ad Center</a> einsehen und ändern."
+        },
+        {
+          "p": "Werbung hat nie Zugriff auf den Text, den Sie eingeben, einfügen oder diktieren. Dieser Text bleibt in Ihrem Browser."
+        },
+        {
+          "h2": "Wenn Sie im EWR, im Vereinigten Königreich oder in der Schweiz sind"
+        },
+        {
+          "p": "Wo Werbung aktiviert ist, wird Ihnen vor dem Setzen eines Werbe-Cookies eine Einwilligungsabfrage angezeigt, ausgeliefert über eine von Google zertifizierte Consent-Plattform. Sie können diese Entscheidung jederzeit über den Datenschutz-Link ändern oder widerrufen, den das Consent-Werkzeug auf der Seite hinterlässt."
+        },
+        {
+          "p": "Sie haben das Recht, Auskunft über die zu Ihnen gespeicherten personenbezogenen Daten zu verlangen, deren Berichtigung oder Löschung zu fordern, der Verarbeitung zu widersprechen und sich bei Ihrer Datenschutzaufsichtsbehörde zu beschweren. Praktisch halten wir fast nichts: Die ehrliche Antwort auf eine Auskunftsanfrage lautet meist, dass die einzigen Daten über Sie in Ihrem eigenen Browser liegen, wo Sie sie selbst löschen können."
+        },
+        {
+          "h2": "Kinder"
+        },
+        {
+          "p": "Aloud richtet sich nicht an Kinder unter 13 Jahren, und wir erheben wissentlich keine Daten von ihnen."
+        },
+        {
+          "h2": "Änderungen"
+        },
+        {
+          "p": "Ändert sich diese Erklärung wesentlich, ändert sich das oben genannte Datum mit."
+        },
+        {
+          "h2": "Kontakt"
+        },
+        {
+          "p": "Fragen zu dieser Erklärung oder eine Datenauskunft: <strong>{{contactEmail}}</strong>."
+        }
+      ]
+    },
+    "terms": {
+      "nav": "Nutzungsbedingungen",
+      "title": "Nutzungsbedingungen",
+      "description": "Die Bedingungen für die Nutzung von Aloud. Kurz, weil der Dienst einfach ist: Sie bringen den Text, Ihr Browser spricht, und alles Geschriebene bleibt Ihres.",
+      "stamp": "Gültig ab {{effectiveDate}} · betrieben von {{operator}}",
+      "blocks": [
+        {
+          "p": "Mit der Nutzung von <strong>{{origin}}</strong> stimmen Sie diesen Bedingungen zu. Falls nicht, nutzen Sie die Seite bitte nicht."
+        },
+        {
+          "h2": "Was Aloud ist"
+        },
+        {
+          "p": "Aloud ist ein kostenloses Werkzeug, das Texte vorliest, sie als Teleprompter ablaufen lässt und Diktate mitschreibt, auf Basis der Sprachfunktionen, die Ihr Browser bereits mitbringt. Es gibt weder Konto noch Bezahlung."
+        },
+        {
+          "h2": "Ihr Text gehört Ihnen"
+        },
+        {
+          "p": "Wir erheben keinerlei Anspruch auf das, was Sie eingeben, einfügen oder diktieren. Wir erhalten es nicht und könnten es daher auch nicht verwenden. Sie sind dafür verantwortlich, die Rechte an dem eingegebenen Text zu besitzen."
+        },
+        {
+          "h2": "Faire Nutzung"
+        },
+        {
+          "ul": [
+            "Nutzen Sie Aloud nicht, um rechtswidriges, belästigendes oder irreführendes Material zu erzeugen.",
+            "Versuchen Sie nicht, die Seite oder die zugrunde liegende Infrastruktur zu stören.",
+            "Geben Sie synthetische Sprache nicht als Aufnahme der Stimme einer realen Person aus, um zu täuschen."
+          ]
+        },
+        {
+          "h2": "Keine Gewährleistung"
+        },
+        {
+          "p": "Aloud wird wie besehen bereitgestellt, ohne Gewährleistung jeder Art. Die verfügbaren Stimmen, die Sprachqualität und die Genauigkeit des Diktats stammen von Ihrem Browser und Betriebssystem und unterscheiden sich je nach Gerät und Version. Wir sagen weder unterbrechungsfreien noch fehlerfreien Betrieb noch Eignung für einen bestimmten Zweck zu."
+        },
+        {
+          "note": "Verlassen Sie sich nicht auf Aloud als einzige Kopie. Ihr Text liegt in Ihrem eigenen Browser und kann durch das Löschen der Browserdaten, einen Gerätewechsel oder privates Surfen verloren gehen. Nutzen Sie für alles Wichtige die Schaltfläche <strong>herunterladen</strong>."
+        },
+        {
+          "h2": "Haftungsbeschränkung"
+        },
+        {
+          "p": "Soweit gesetzlich zulässig, haften wir nicht für mittelbare Schäden oder Folgeschäden aus der Nutzung der Seite, einschließlich verlorener Arbeit, Daten oder Zeit. Nichts hierin beschränkt eine Haftung, die gesetzlich nicht beschränkbar ist."
+        },
+        {
+          "h2": "Dienste Dritter"
+        },
+        {
+          "p": "Das Diktat beruht auf der Spracherkennung des Browserherstellers; wo Werbung aktiviert ist, wird sie von Google bereitgestellt. Für diese Dienste gelten eigene Bedingungen, denen Sie mit deren Nutzung zustimmen."
+        },
+        {
+          "h2": "Änderungen"
+        },
+        {
+          "p": "Diese Bedingungen können sich ändern; das oben genannte Datum ändert sich mit. Die weitere Nutzung der Seite gilt als Zustimmung zur jeweils geltenden Fassung."
+        },
+        {
+          "h2": "Anwendbares Recht"
+        },
+        {
+          "p": "Für diese Bedingungen gilt das Recht von {{jurisdiction}}."
+        },
+        {
+          "h2": "Kontakt"
+        },
+        {
+          "p": "Fragen zu diesen Bedingungen: <strong>{{contactEmail}}</strong>."
+        }
+      ]
+    },
+    "about": {
+      "nav": "Über",
+      "title": "Über Aloud",
+      "description": "Warum es Aloud gibt, wer dahintersteckt und wie Sie uns erreichen. Ein Text, drei Modi, aufgebaut auf der Sprachausgabe, die Ihr Browser schon hat.",
+      "stamp": "Gemacht von {{operator}} · {{contactEmail}}",
+      "blocks": [
+        {
+          "p": "Aloud begann mit einem kleinen Ärgernis: Am schnellsten merkt man, ob ein Text funktioniert, wenn man ihn hört, und das im Web zu tun bedeutete meist ein Konto, ein Wortkontingent und eine hinterlegte Karte, für eine Aufgabe, die der Browser längst allein erledigen kann."
+        },
+        {
+          "h2": "Ein Text, drei Modi"
+        },
+        {
+          "p": "Jeder Browser bringt eine Sprachausgabe und einen Satz Stimmen mit, die kaum jemand nutzt. Aloud gibt ihnen eine ordentliche Oberfläche und stellt dabei fest, dass drei getrennte Werkzeuge exakt denselben Bildschirm wollen: einen großen, gut lesbaren Text, eine Steuerung, eine Temporegelung und eine Positionsmarke."
+        },
+        {
+          "ul": [
+            "<strong>Hören</strong> liest Ihren Text vor, mit einer Marke, die den gesprochenen Wörtern folgt.",
+            "<strong>Prompter</strong> macht aus demselben Text einen Teleprompter und lässt ihn in Ihrem Tempo laufen, während Sie in die Kamera lesen.",
+            "<strong>Diktat</strong> dreht die Richtung um: Sie sprechen, und Ihre Worte werden zum Text."
+          ]
+        },
+        {
+          "p": "Der Text, den Sie diktieren, ist also der Text, den die Stimme liest, und der Text, den der Prompter ablaufen lässt. Das ist die ganze Idee."
+        },
+        {
+          "h2": "Wie es gebaut ist"
+        },
+        {
+          "p": "Es ist eine statische Website ohne Backend. Sprachausgabe, Teleprompter und Speicherung geschehen in Ihrem Browser. Deshalb ist es kostenlos, deshalb gibt es keine Grenzen, und deshalb funktionieren Hören und Prompter auch ohne Netz weiter. Die Schriften liegen auf der Seite selbst, damit das Öffnen einer Seite niemandem etwas verrät."
+        },
+        {
+          "p": "Die Oberfläche gibt es auf Deutsch, Englisch, Spanisch, Französisch, Arabisch und Chinesisch, und das Werkzeug liest und diktiert in jeder Sprache, für die Ihr Gerät eine Stimme hat."
+        },
+        {
+          "h2": "Was es bewusst nicht tut"
+        },
+        {
+          "p": "Es kann keine MP3s exportieren. Die Sprachausgabe des Browsers spielt den Ton direkt ab und stellt keinen aufnehmbaren Datenstrom bereit, es gibt also schlicht keine Datei zum Aushändigen. Das sauber zu lösen bräuchte einen kostenpflichtigen Cloud-Dienst, also Konten und Kontingente, also genau das, was hier vermieden werden sollte."
+        },
+        {
+          "h2": "Kontakt"
+        },
+        {
+          "p": "Fehler, fehlende Sprachen oder eine Stimme, die etwas seltsam ausspricht: <strong>{{contactEmail}}</strong>."
+        }
+      ]
+    }
   }
 }

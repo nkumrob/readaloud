@@ -248,5 +248,217 @@
         "a": "Oui. Toutes les voix installées sur votre appareil sont listées avec leur code de langue, vos propres langues étant regroupées en premier. Choisissez une voix dans cette langue et le texte sera lu dans cette langue. La voix choisie détermine aussi la langue que la dictée écoute."
       }
     ]
+  },
+  "docs": {
+    "backNav": "L'outil",
+    "privacy": {
+      "nav": "Confidentialité",
+      "title": "Politique de confidentialité",
+      "description": "Ce qu'Aloud collecte et ne collecte pas. La synthèse vocale et le prompteur fonctionnent entièrement sur votre appareil ; la dictée et la publicité sont les exceptions, expliquées ici.",
+      "stamp": "En vigueur au {{effectiveDate}} · exploité par {{operator}}",
+      "blocks": [
+        {
+          "p": "Cette politique couvre <strong>{{origin}}</strong> et toutes ses versions linguistiques. Elle est écrite pour être lue, pas pour être endurée."
+        },
+        {
+          "h2": "La version courte"
+        },
+        {
+          "note": "Aloud n'a ni serveur, ni compte, ni base de données. Le texte que vous saisissez ou collez n'est envoyé nulle part. Deux choses seulement quittent votre appareil : <strong>l'audio pendant que vous dictez</strong> et les requêtes ordinaires que reçoit n'importe quel site. Les deux sont détaillées ci-dessous."
+        },
+        {
+          "h2": "Ce qui est conservé, et où"
+        },
+        {
+          "p": "Votre texte, la voix choisie, le thème et le dernier mode sont conservés dans le <code>localStorage</code> de votre navigateur, c'est-à-dire sur votre propre ordinateur. Nous ne pouvons pas le lire, il n'est jamais transmis, et il ne vous suit ni sur un autre appareil ni dans un autre navigateur."
+        },
+        {
+          "p": "Vous pouvez désactiver cela à tout moment avec la commande <strong>enregistré dans ce navigateur</strong>, en pied de l'outil. La désactivation supprime ce qui était déjà conservé. Effacer les données du navigateur le supprime également."
+        },
+        {
+          "p": "Nous ne tenons ni comptes ni base d'utilisateurs, faute d'endroit où les tenir."
+        },
+        {
+          "h2": "La dictée envoie de l'audio à l'éditeur de votre navigateur"
+        },
+        {
+          "p": "Lorsque vous dictez, votre navigateur transcrit la parole via l'API de reconnaissance vocale du web. Dans Chrome et Edge, cela fonctionne en transmettant l'audio du microphone aux serveurs de Google ou de Microsoft. C'est ainsi que ces navigateurs implémentent la fonction ; ce n'est pas un choix d'Aloud, et nous ne recevons jamais ni l'audio ni la transcription. Le traitement de cet audio relève de leurs politiques de confidentialité, pas de la nôtre."
+        },
+        {
+          "p": "Rien n'est enregistré lorsque la dictée est désactivée, et le microphone est libéré dès que vous l'arrêtez. <strong>Ne dictez rien de confidentiel.</strong>"
+        },
+        {
+          "h2": "Hébergement et journaux serveur"
+        },
+        {
+          "p": "Le site est hébergé par Vercel. Comme tout hébergeur, Vercel enregistre des données de requête ordinaires : adresse IP, horodatage, page demandée et agent utilisateur, afin de servir le site et de le protéger des abus. Nous ne croisons pas ces journaux avec autre chose et ne pouvons pas les rattacher à une personne."
+        },
+        {
+          "h2": "Polices et tiers"
+        },
+        {
+          "p": "Les polices sont servies depuis ce site et non depuis Google Fonts : charger une page ne révèle donc pas votre adresse IP à un fournisseur de polices. En dehors de l'hébergement, de la publicité lorsqu'elle est activée et des services vocaux du navigateur décrits ci-dessus, le site n'effectue aucune requête vers des tiers."
+        },
+        {
+          "h2": "Publicité et cookies"
+        },
+        {
+          "p": "Aloud ne dépose aucun cookie propre et n'utilise aucune mesure d'audience."
+        },
+        {
+          "p": "Si la publicité est activée sur ce site, elle est diffusée par Google AdSense. Google et ses partenaires peuvent alors déposer des cookies ou lire des identifiants d'appareil pour diffuser et mesurer des annonces, y compris des annonces personnalisées lorsque vous y avez consenti. L'usage des cookies publicitaires par Google est décrit dans ses <a href=\"https://policies.google.com/technologies/ads\" rel=\"nofollow noopener\" target=\"_blank\">règles publicitaires</a>, et vous pouvez consulter ou modifier vos préférences sur <a href=\"https://myadcenter.google.com\" rel=\"nofollow noopener\" target=\"_blank\">My Ad Center</a>."
+        },
+        {
+          "p": "La publicité n'a jamais accès au texte que vous saisissez, collez ou dictez. Ce texte reste dans votre navigateur."
+        },
+        {
+          "h2": "Si vous êtes dans l'EEE, au Royaume-Uni ou en Suisse"
+        },
+        {
+          "p": "Lorsque la publicité est activée, un choix de consentement vous est présenté avant tout dépôt de cookie publicitaire, via une plateforme de consentement certifiée par Google. Vous pouvez modifier ou retirer ce choix à tout moment depuis le lien de confidentialité que l'outil de consentement laisse sur la page."
+        },
+        {
+          "p": "Vous avez le droit de demander quelles données personnelles nous détenons, d'en obtenir la rectification ou l'effacement, de vous opposer au traitement et d'introduire une réclamation auprès de votre autorité de protection des données. En pratique nous ne détenons presque rien : la réponse honnête à une demande est généralement que les seules données vous concernant se trouvent dans votre propre navigateur, où vous pouvez les supprimer vous-même."
+        },
+        {
+          "h2": "Enfants"
+        },
+        {
+          "p": "Aloud ne s'adresse pas aux enfants de moins de 13 ans et nous ne collectons pas sciemment leurs données."
+        },
+        {
+          "h2": "Modifications"
+        },
+        {
+          "p": "Si cette politique change de manière substantielle, la date d'entrée en vigueur ci-dessus changera avec elle."
+        },
+        {
+          "h2": "Contact"
+        },
+        {
+          "p": "Questions sur cette politique ou demande relative à vos données : <strong>{{contactEmail}}</strong>."
+        }
+      ]
+    },
+    "terms": {
+      "nav": "Conditions",
+      "title": "Conditions d'utilisation",
+      "description": "Les conditions d'utilisation d'Aloud. Brèves, car le service est simple : vous apportez le texte, votre navigateur parle, et vous gardez tout ce que vous écrivez.",
+      "stamp": "En vigueur au {{effectiveDate}} · exploité par {{operator}}",
+      "blocks": [
+        {
+          "p": "En utilisant <strong>{{origin}}</strong>, vous acceptez ces conditions. Si vous ne les acceptez pas, merci de ne pas utiliser le site."
+        },
+        {
+          "h2": "Ce qu'est Aloud"
+        },
+        {
+          "p": "Aloud est un outil gratuit qui lit des textes à voix haute, les fait défiler comme un prompteur et transcrit la dictée, à partir des fonctions vocales déjà présentes dans votre navigateur. Il n'y a ni compte ni paiement."
+        },
+        {
+          "h2": "Votre texte vous appartient"
+        },
+        {
+          "p": "Nous ne revendiquons aucun droit sur ce que vous saisissez, collez ou dictez. Nous ne le recevons pas, nous ne pourrions donc pas l'utiliser même si nous le voulions. Il vous appartient de disposer des droits sur le texte que vous y placez."
+        },
+        {
+          "h2": "Usage raisonnable du service"
+        },
+        {
+          "ul": [
+            "N'utilisez pas Aloud pour produire du contenu illicite, harcelant ou trompeur.",
+            "N'essayez pas de perturber le site ni l'infrastructure sur laquelle il fonctionne.",
+            "Ne présentez pas une voix de synthèse comme l'enregistrement de la voix d'une personne réelle dans le but de tromper."
+          ]
+        },
+        {
+          "h2": "Absence de garantie"
+        },
+        {
+          "p": "Aloud est fourni en l'état, sans garantie d'aucune sorte. Les voix disponibles, la qualité de la synthèse et la précision de la dictée proviennent de votre navigateur et de votre système d'exploitation, et varient selon les appareils et les versions. Nous ne promettons ni fonctionnement ininterrompu, ni absence d'erreurs, ni adéquation à un usage particulier."
+        },
+        {
+          "note": "Ne comptez pas sur Aloud comme unique copie de quoi que ce soit. Votre texte est conservé dans votre navigateur et peut disparaître si vous effacez les données du navigateur, changez d'appareil ou utilisez la navigation privée. Utilisez le bouton <strong>télécharger</strong> pour ce qui compte."
+        },
+        {
+          "h2": "Limitation de responsabilité"
+        },
+        {
+          "p": "Dans la mesure permise par la loi, nous ne sommes pas responsables des dommages indirects ou consécutifs résultant de l'utilisation du site, y compris la perte de travail, de données ou de temps. Rien ici ne limite une responsabilité que la loi ne permet pas de limiter."
+        },
+        {
+          "h2": "Services tiers"
+        },
+        {
+          "p": "La dictée repose sur la reconnaissance vocale fournie par l'éditeur de votre navigateur et, lorsque la publicité est activée, celle-ci est fournie par Google. Ces services ont leurs propres conditions, que vous acceptez en les utilisant."
+        },
+        {
+          "h2": "Modifications"
+        },
+        {
+          "p": "Ces conditions peuvent évoluer ; la date d'entrée en vigueur ci-dessus évoluera avec elles. Continuer à utiliser le site vaut acceptation de la version en vigueur."
+        },
+        {
+          "h2": "Droit applicable"
+        },
+        {
+          "p": "Ces conditions sont régies par le droit de {{jurisdiction}}."
+        },
+        {
+          "h2": "Contact"
+        },
+        {
+          "p": "Questions sur ces conditions : <strong>{{contactEmail}}</strong>."
+        }
+      ]
+    },
+    "about": {
+      "nav": "À propos",
+      "title": "À propos d'Aloud",
+      "description": "Pourquoi Aloud existe, qui le fabrique et comment nous joindre. Un texte, trois modes, bâtis sur le moteur vocal déjà présent dans votre navigateur.",
+      "stamp": "Réalisé par {{operator}} · {{contactEmail}}",
+      "blocks": [
+        {
+          "p": "Aloud est né d'une petite contrariété : le moyen le plus rapide de savoir si un texte fonctionne, c'est de l'entendre, et le faire sur le web supposait généralement un compte, un quota de mots et une carte enregistrée, pour une tâche que le navigateur sait déjà accomplir seul."
+        },
+        {
+          "h2": "Un texte, trois modes"
+        },
+        {
+          "p": "Chaque navigateur embarque un moteur vocal et un jeu de voix que presque personne n'utilise. Aloud leur donne une véritable interface et constate au passage que trois outils distincts réclament exactement le même écran : un texte grand et lisible, des commandes de lecture, un réglage de vitesse et un repère de position."
+        },
+        {
+          "ul": [
+            "<strong>Écouter</strong> lit votre texte à voix haute, avec un repère qui suit les mots prononcés.",
+            "<strong>Prompteur</strong> transforme ce même texte en prompteur et le fait défiler à votre rythme pendant que vous lisez face caméra.",
+            "<strong>Dicter</strong> inverse le sens : vous parlez, et vos mots deviennent le texte."
+          ]
+        },
+        {
+          "p": "Le texte que vous dictez est donc celui que la voix lit et celui que le prompteur déroule. C'est toute l'idée."
+        },
+        {
+          "h2": "Comment c'est construit"
+        },
+        {
+          "p": "C'est un site statique sans back end. La synthèse vocale, le prompteur et le stockage se passent dans votre navigateur : voilà pourquoi c'est gratuit, sans limites, et pourquoi l'écoute et le prompteur continuent de fonctionner hors ligne. Les polices sont hébergées sur le site même, afin qu'ouvrir une page n'informe personne."
+        },
+        {
+          "p": "L'interface existe en français, anglais, espagnol, allemand, arabe et chinois, et l'outil lit et dicte dans toute langue pour laquelle votre appareil dispose d'une voix."
+        },
+        {
+          "h2": "Ce qu'il ne fait pas, délibérément"
+        },
+        {
+          "p": "Il ne peut pas exporter de MP3. Le moteur vocal du navigateur joue l'audio directement et n'expose aucun flux enregistrable : il n'y a tout simplement aucun fichier à vous remettre. Le faire correctement exigerait un service cloud payant, donc des comptes et des quotas, précisément ce que cet outil cherchait à éviter."
+        },
+        {
+          "h2": "Nous écrire"
+        },
+        {
+          "p": "Bogues, langues manquantes, ou une voix qui prononce mal quelque chose : <strong>{{contactEmail}}</strong>."
+        }
+      ]
+    }
   }
 }

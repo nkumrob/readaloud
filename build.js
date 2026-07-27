@@ -13,6 +13,15 @@ const path = require('path');
 const ROOT = __dirname;
 const ORIGIN = (process.argv[2] || 'https://aloud.app').replace(/\/+$/, '');
 const SRC = fs.readFileSync(path.join(ROOT, 'src/app.html'), 'utf8');
+const DOC = fs.readFileSync(path.join(ROOT, 'src/doc.html'), 'utf8');
+const SITE = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/site.json'), 'utf8'));
+
+const PUB = (SITE.adsensePublisherId || '').trim();
+const ADS_ON = /^ca-pub-\d{10,}$/.test(PUB);
+const DOC_PAGES = ['privacy', 'terms', 'about'];
+
+// the font faces live in app.html; reuse them verbatim so the doc pages match
+const FONT_FACES = (SRC.match(/@font-face\{[\s\S]*?unicode-range:[^}]+\}/g) || []).join('\n');
 
 const LOCALE_DIR = path.join(ROOT, 'src/locales');
 const locales = fs.readdirSync(LOCALE_DIR)
@@ -22,6 +31,22 @@ const locales = fs.readdirSync(LOCALE_DIR)
 
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const url = l => ORIGIN + l.path;
+const docPath = (l, name) => `${l.path}${name}/`;
+
+// Google's certified CMP is delivered through this same tag; enable the EEA
+// message under Privacy & messaging in the AdSense dashboard.
+const adsTag = () => ADS_ON
+  ? `\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${PUB}" crossorigin="anonymous"></script>`
+  : '';
+
+// fill {{tokens}} from site.json so no policy ships with a stale detail
+const site = s => String(s)
+  .replace(/\{\{operator\}\}/g, esc(SITE.operator))
+  .replace(/\{\{contactEmail\}\}/g, esc(SITE.contactEmail))
+  .replace(/\{\{jurisdiction\}\}/g, esc(SITE.jurisdiction))
+  .replace(/\{\{effectiveDate\}\}/g, esc(SITE.effectiveDate))
+  .replace(/\{\{entity\}\}/g, esc(SITE.entity))
+  .replace(/\{\{origin\}\}/g, ORIGIN);
 
 /* ── head ── */
 function head(L) {
@@ -116,6 +141,9 @@ function about(L) {
     .map(l => `<a href="${l.path}" hreflang="${l.lang}" lang="${l.lang}">${esc(l.name)}</a>`)
     .join('\n    ');
 
+  const docNav = DOC_PAGES
+    .map(n => `<a href="${docPath(L, n)}">${esc(L.docs[n].nav)}</a>`).join('\n    ');
+
   return `<article class="about">
  <div class="about-in">
 ${sections}
@@ -129,12 +157,60 @@ ${faq}
 
 <footer class="sitefoot">
   <span>${esc(c.footer)}</span>
+  <nav class="sitenav" aria-label="${esc(c.langLabel)}">
+    ${docNav}
+  </nav>
   <nav class="langs" aria-label="${esc(c.langLabel)}">
     <span class="langs-label">${esc(c.langLabel)}:</span>
     ${picker}
   </nav>
   <span class="sp"><a href="/sitemap.xml">${esc(c.sitemap)}</a></span>
 </footer>`;
+}
+
+/* ── privacy / terms / about ── */
+function docPage(L, name) {
+  const d = L.docs[name];
+  const body = d.blocks.map(b => {
+    if (b.h2) return `    <h2>${esc(site(b.h2))}</h2>`;
+    if (b.p) return `    <p>${site(b.p)}</p>`;
+    if (b.note) return `    <div class="note"><p>${site(b.note)}</p></div>`;
+    if (b.ul) return `    <ul>\n${b.ul.map(li => `      <li>${site(li)}</li>`).join('\n')}\n    </ul>`;
+    return '';
+  }).join('\n');
+
+  const nav = [`<a href="${L.path}">${esc(L.docs.backNav)}</a>`]
+    .concat(DOC_PAGES.filter(n => n !== name).map(n => `<a href="${docPath(L, n)}">${esc(L.docs[n].nav)}</a>`))
+    .join('\n    ');
+
+  const langs = locales.filter(l => l.code !== L.code)
+    .map(l => `<a href="${docPath(l, name)}" hreflang="${l.lang}" lang="${l.lang}">${esc(l.name)}</a>`)
+    .join('\n    ');
+
+  const alts = locales.map(l =>
+    `<link rel="alternate" hreflang="${l.lang}" href="${ORIGIN + docPath(l, name)}">`).join('\n');
+
+  const head = `<title>${esc(d.title)} — Aloud</title>
+<meta name="description" content="${esc(d.description)}">
+<link rel="canonical" href="${ORIGIN + docPath(L, name)}">
+${alts}
+<link rel="alternate" hreflang="x-default" href="${ORIGIN + docPath(locales[0], name)}">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#08090a" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2308090a'/%3E%3Cg fill='%23ccff33'%3E%3Crect x='6' y='13' width='2.6' height='6' rx='1.3'/%3E%3Crect x='11' y='9' width='2.6' height='14' rx='1.3'/%3E%3Crect x='16' y='6' width='2.6' height='20' rx='1.3'/%3E%3Crect x='21' y='11' width='2.6' height='10' rx='1.3'/%3E%3C/g%3E%3C/svg%3E">${adsTag()}`;
+
+  const depth = docPath(L, name).split('/').filter(Boolean).length;
+  return DOC
+    .replace('{{lang}}', L.lang).replace('{{dir}}', L.dir)
+    .replace('{{home}}', L.path)
+    .replace('{{footer}}', esc(L.content.footer))
+    .replace('{{sitemap}}', esc(L.content.sitemap))
+    .replace('<!--HEAD-->', head)
+    .replace('<!--FONTS-->', FONT_FACES.replace(/FONTBASE/g, '../'.repeat(depth) + 'fonts/'))
+    .replace('<!--NAV-->', nav)
+    .replace('<!--DOC-->', `    <h1>${esc(d.title)}</h1>\n    <span class="stamp">${esc(site(d.stamp))}</span>\n${body}`)
+    .replace('<!--LANGS-->', langs);
 }
 
 /* ── emit ── */
@@ -162,24 +238,43 @@ for (const L of locales) {
     ? path.join(ROOT, 'index.html')
     : path.join(ROOT, L.path.replace(/^\/|\/$/g, ''), 'index.html');
   fs.mkdirSync(path.dirname(out), { recursive: true });
-  fs.writeFileSync(out, page);
+  fs.writeFileSync(out, page.replace('</head>', adsTag() + '\n</head>'));
   written.push(path.relative(ROOT, out));
+
+  for (const name of DOC_PAGES) {
+    const dout = path.join(ROOT, docPath(L, name).replace(/^\/|\/$/g, ''), 'index.html');
+    fs.mkdirSync(path.dirname(dout), { recursive: true });
+    fs.writeFileSync(dout, docPage(L, name));
+    written.push(path.relative(ROOT, dout));
+  }
 }
 
 /* ── sitemap with per-URL alternates ── */
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+const entry = (loc, alts, priority) => `  <url>
+    <loc>${loc}</loc>
+${alts.map(a => `    <xhtml:link rel="alternate" hreflang="${a.lang}" href="${a.href}"/>`).join('\n')}
+    <xhtml:link rel="alternate" hreflang="x-default" href="${alts[0].href}"/>
+    <changefreq>monthly</changefreq>
+    <priority>${priority}</priority>
+  </url>`;
+
+const urls = [
+  ...locales.map(L => entry(url(L), locales.map(l => ({ lang: l.lang, href: url(l) })), L.path === '/' ? '1.0' : '0.8')),
+  ...DOC_PAGES.flatMap(name => locales.map(L =>
+    entry(ORIGIN + docPath(L, name), locales.map(l => ({ lang: l.lang, href: ORIGIN + docPath(l, name) })), '0.3')))
+];
+
+fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${locales.map(L => `  <url>
-    <loc>${url(L)}</loc>
-${locales.map(l => `    <xhtml:link rel="alternate" hreflang="${l.lang}" href="${url(l)}"/>`).join('\n')}
-    <xhtml:link rel="alternate" hreflang="x-default" href="${ORIGIN}/"/>
-    <changefreq>monthly</changefreq>
-    <priority>${L.path === '/' ? '1.0' : '0.8'}</priority>
-  </url>`).join('\n')}
+${urls.join('\n')}
 </urlset>
-`;
-fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap);
+`);
+
+/* ads.txt only exists once there is a real publisher id to put in it */
+const adsPath = path.join(ROOT, 'ads.txt');
+if (ADS_ON) fs.writeFileSync(adsPath, `google.com, ${PUB.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
+else if (fs.existsSync(adsPath)) fs.unlinkSync(adsPath);
 
 const robots = fs.readFileSync(path.join(ROOT, 'robots.txt'), 'utf8')
   .replace(/^Sitemap: .*$/m, `Sitemap: ${ORIGIN}/sitemap.xml`);
@@ -187,5 +282,12 @@ fs.writeFileSync(path.join(ROOT, 'robots.txt'), robots);
 
 console.log(`origin  ${ORIGIN}`);
 console.log(`locales ${locales.map(l => l.code).join(', ')}`);
-written.forEach(w => console.log('  wrote', w));
-console.log('  wrote sitemap.xml (with hreflang alternates)');
+console.log(`pages   ${written.length} (${locales.length} app + ${written.length - locales.length} doc)`);
+console.log(`ads     ${ADS_ON ? PUB + ' — tag injected, ads.txt written' : 'off (no publisher id in src/site.json)'}`);
+console.log(`sitemap ${urls.length} urls`);
+
+const unset = Object.entries(SITE)
+  .filter(([k, v]) => typeof v === 'string' && /^SET-/.test(v))
+  .map(([k]) => k);
+if (unset.length) console.warn(`\n!  src/site.json still has placeholders: ${unset.join(', ')}` +
+  `\n   The legal pages will show them verbatim. Fill them in before applying to AdSense.`);

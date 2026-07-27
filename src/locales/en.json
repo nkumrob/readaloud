@@ -248,5 +248,217 @@
         "a": "Yes. Every voice installed on your device is listed with its language code, with your own languages grouped first. Cast a voice in that language and the script is read in it. The cast voice also sets the language dictation listens for."
       }
     ]
+  },
+  "docs": {
+    "backNav": "The tool",
+    "privacy": {
+      "nav": "Privacy",
+      "title": "Privacy policy",
+      "description": "What Aloud does and does not collect. Text to speech and teleprompter run entirely on your device; dictation and advertising are the exceptions, and both are explained here.",
+      "stamp": "Effective {{effectiveDate}} · operated by {{operator}}",
+      "blocks": [
+        {
+          "p": "This policy covers <strong>{{origin}}</strong> and every language version of it. It is written to be read, not to be survived."
+        },
+        {
+          "h2": "The short version"
+        },
+        {
+          "note": "Aloud has no server, no account and no database. The text you type or paste is never sent anywhere. Two things do leave your device, and only two: <strong>audio while you are dictating</strong>, and the ordinary requests any website receives. Both are set out below."
+        },
+        {
+          "h2": "What we store, and where"
+        },
+        {
+          "p": "Your script, your chosen voice, your theme and your last mode are kept in your browser's <code>localStorage</code>. That is storage on your own computer. We cannot read it, it is never transmitted, and it does not follow you to another device or browser."
+        },
+        {
+          "p": "You can switch this off at any time with the <strong>saving to this browser</strong> control in the footer of the tool. Turning it off deletes what is already stored. Clearing your browser data removes it too."
+        },
+        {
+          "p": "We hold no accounts and no user database, because there is nothing to hold one in."
+        },
+        {
+          "h2": "Dictation sends audio to your browser's maker"
+        },
+        {
+          "p": "When you use dictation, your browser transcribes speech using the Web Speech Recognition API. In Chrome and Edge that works by streaming microphone audio to Google's or Microsoft's own servers. This is how those browsers implement the feature; it is not a choice Aloud makes, and we never receive the audio or the transcript. Their handling of that audio is governed by their privacy policies, not ours."
+        },
+        {
+          "p": "Nothing is recorded while dictation is off, and the microphone is released the moment you stop. <strong>Do not dictate confidential material.</strong>"
+        },
+        {
+          "h2": "Hosting and server logs"
+        },
+        {
+          "p": "The site is served by Vercel. Like any web host, Vercel records ordinary request data such as IP address, time, page requested and user agent, in order to deliver the site and defend it from abuse. We do not combine those logs with anything else, and we cannot connect them to a person."
+        },
+        {
+          "h2": "Fonts and third parties"
+        },
+        {
+          "p": "The typefaces are served from this site itself rather than from Google Fonts, so loading a page does not disclose your IP address to a font provider. Aside from hosting, advertising where enabled, and the browser's own speech services described above, the site makes no third-party requests."
+        },
+        {
+          "h2": "Advertising and cookies"
+        },
+        {
+          "p": "Aloud sets no cookies of its own and uses no analytics."
+        },
+        {
+          "p": "If advertising is enabled on this site, it is served by Google AdSense. Google and its partners may then set cookies or read device identifiers to serve and measure ads, including personalised ads where you have consented. Google's use of advertising cookies is described in its <a href=\"https://policies.google.com/technologies/ads\" rel=\"nofollow noopener\" target=\"_blank\">advertising policies</a>, and you can review or change your ad settings at <a href=\"https://myadcenter.google.com\" rel=\"nofollow noopener\" target=\"_blank\">My Ad Center</a>."
+        },
+        {
+          "p": "Advertising never has access to the text you type, paste or dictate. That text stays in your browser."
+        },
+        {
+          "h2": "If you are in the EEA, the UK or Switzerland"
+        },
+        {
+          "p": "Where advertising is enabled, you are shown a consent choice before any advertising cookie is set, delivered through a Google-certified consent platform. You can change or withdraw that choice at any time from the privacy link the consent tool leaves on the page."
+        },
+        {
+          "p": "You have the right to ask what personal data we hold, to have it corrected or erased, to object to processing and to complain to your data protection authority. In practice we hold almost nothing: the honest answer to a data request is usually that the only data about you is in your own browser, where you can delete it yourself."
+        },
+        {
+          "h2": "Children"
+        },
+        {
+          "p": "Aloud is not directed at children under 13 and we do not knowingly collect data from them."
+        },
+        {
+          "h2": "Changes"
+        },
+        {
+          "p": "If this policy changes materially, the effective date at the top changes with it."
+        },
+        {
+          "h2": "Contact"
+        },
+        {
+          "p": "Questions about this policy, or a data request: <strong>{{contactEmail}}</strong>."
+        }
+      ]
+    },
+    "terms": {
+      "nav": "Terms",
+      "title": "Terms of use",
+      "description": "The terms for using Aloud. Short, because the service is simple: you bring the text, your browser does the speaking, and you keep everything you write.",
+      "stamp": "Effective {{effectiveDate}} · operated by {{operator}}",
+      "blocks": [
+        {
+          "p": "By using <strong>{{origin}}</strong> you agree to these terms. If you do not, please do not use it."
+        },
+        {
+          "h2": "What Aloud is"
+        },
+        {
+          "p": "Aloud is a free tool that reads text aloud, runs it as a teleprompter and transcribes dictation, using speech features already built into your browser. There is no account and no payment."
+        },
+        {
+          "h2": "Your text is yours"
+        },
+        {
+          "p": "We claim no ownership of anything you type, paste or dictate. We do not receive it, so we could not use it even if we wanted to. You are responsible for having the right to use whatever text you put into it."
+        },
+        {
+          "h2": "Fair use of the service"
+        },
+        {
+          "ul": [
+            "Do not use Aloud to produce unlawful, harassing or deceptive material.",
+            "Do not attempt to disrupt the site or the infrastructure it runs on.",
+            "Do not present synthesised speech as a recording of a real person's voice in order to mislead."
+          ]
+        },
+        {
+          "h2": "No warranty"
+        },
+        {
+          "p": "Aloud is provided as it is, without warranty of any kind. The available voices, the quality of the speech and the accuracy of dictation come from your browser and operating system, and vary between devices and versions. We do not promise the site will be uninterrupted, error free, or suitable for any particular purpose."
+        },
+        {
+          "note": "Do not rely on Aloud as the only copy of anything. Your script is kept in your own browser and can be lost by clearing browser data, switching device or using private browsing. Use the <strong>download</strong> button for anything that matters."
+        },
+        {
+          "h2": "Limitation of liability"
+        },
+        {
+          "p": "To the extent the law allows, we are not liable for any indirect or consequential loss arising from your use of the site, including lost work, lost data or lost time. Nothing here limits liability that cannot be limited by law."
+        },
+        {
+          "h2": "Third-party services"
+        },
+        {
+          "p": "Dictation relies on speech recognition provided by your browser's maker, and where advertising is enabled it is provided by Google. Those services have their own terms, which you accept by using them."
+        },
+        {
+          "h2": "Changes"
+        },
+        {
+          "p": "These terms may change; the effective date above will change with them. Continuing to use the site means accepting the current version."
+        },
+        {
+          "h2": "Governing law"
+        },
+        {
+          "p": "These terms are governed by the laws of {{jurisdiction}}."
+        },
+        {
+          "h2": "Contact"
+        },
+        {
+          "p": "Questions about these terms: <strong>{{contactEmail}}</strong>."
+        }
+      ]
+    },
+    "about": {
+      "nav": "About",
+      "title": "About Aloud",
+      "description": "Why Aloud exists, who makes it, and how to get in touch. One script, three modes, built on the speech engine already in your browser.",
+      "stamp": "Made by {{operator}} · {{contactEmail}}",
+      "blocks": [
+        {
+          "p": "Aloud began with a small annoyance: the quickest way to find out whether a piece of writing works is to hear it, and doing that on the web usually meant an account, a word quota and a card on file, for a job the browser can already do by itself."
+        },
+        {
+          "h2": "One script, three modes"
+        },
+        {
+          "p": "Every browser ships a speech engine and a set of voices that most people never use. Aloud puts a proper interface on it, and then notices that three separate tools want exactly the same screen: a large legible script, a transport, a speed control and a position marker."
+        },
+        {
+          "ul": [
+            "<strong>Listen</strong> reads your text aloud, with a marker that follows the words as they are spoken.",
+            "<strong>Prompt</strong> turns the same text into a teleprompter and scrolls it at your pace while you read to camera.",
+            "<strong>Dictate</strong> reverses the direction: you speak, and your words become the script."
+          ]
+        },
+        {
+          "p": "So the text you dictate is the text the voice reads and the text the prompter scrolls. That is the whole idea."
+        },
+        {
+          "h2": "How it is built"
+        },
+        {
+          "p": "It is a static site with no back end. Speech, teleprompting and storage all happen in your browser, which is why it is free, why it has no limits, and why listening and prompting keep working with the network off. The typefaces are self-hosted so that opening a page tells no one anything."
+        },
+        {
+          "p": "The interface is available in English, Spanish, French, German, Arabic and Chinese, and the tool reads and dictates in any language your device has a voice for."
+        },
+        {
+          "h2": "What it deliberately does not do"
+        },
+        {
+          "p": "It cannot export MP3s. The browser's speech engine plays audio directly and exposes no recordable stream, so there is genuinely no file to hand you. Doing that properly needs a paid cloud service, which would mean accounts and quotas, which is the thing this was built to avoid."
+        },
+        {
+          "h2": "Get in touch"
+        },
+        {
+          "p": "Bug reports, missing languages, or a voice that reads something oddly: <strong>{{contactEmail}}</strong>."
+        }
+      ]
+    }
   }
 }

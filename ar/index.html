@@ -480,6 +480,9 @@ html[dir="rtl"] #marker{transform-origin:right}
   color:var(--fg-3);font-size:13px;display:flex;gap:var(--s4);flex-wrap:wrap;align-items:baseline}
 .sitefoot a{color:var(--fg-2)}
 .sitefoot .sp{margin-left:auto}
+.sitenav{display:flex;gap:var(--s4);flex-wrap:wrap;align-items:baseline}
+.sitenav a{border-bottom:1px solid var(--line-2);padding-bottom:1px;transition:color .2s,border-color .2s}
+.sitenav a:hover{color:var(--signal);border-color:var(--signal)}
 .langs{display:flex;gap:var(--s3);flex-wrap:wrap;align-items:baseline}
 .langs-label{color:var(--fg-3)}
 .langs a{border-bottom:1px solid var(--line-2);padding-bottom:1px;transition:color .2s,border-color .2s}
@@ -581,6 +584,7 @@ html[dir="rtl"] #marker{transform-origin:right}
   ]
 }
 </script>
+
 </head>
 <body class="blank">
 
@@ -752,6 +756,11 @@ html[dir="rtl"] #marker{transform-origin:right}
 
 <footer class="sitefoot">
   <span>Aloud — تحويل النص إلى كلام وشاشة تلقين وإملاء. يعمل داخل متصفحك.</span>
+  <nav class="sitenav" aria-label="اللغة">
+    <a href="/ar/privacy/">الخصوصية</a>
+    <a href="/ar/terms/">الشروط</a>
+    <a href="/ar/about/">عن الأداة</a>
+  </nav>
   <nav class="langs" aria-label="اللغة">
     <span class="langs-label">اللغة:</span>
     <a href="/" hreflang="en" lang="en">English</a>

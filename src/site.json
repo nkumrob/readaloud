@@ -1,0 +1,15 @@
+{
+  "_readme": "Site-wide facts used in the legal and info pages. Fill these in before applying to AdSense — the placeholders are deliberately obvious so an unfinished policy cannot ship unnoticed.",
+
+  "entity": "Aloud",
+  "operator": "SET-YOUR-NAME-OR-COMPANY",
+  "contactEmail": "SET-YOUR-CONTACT-EMAIL",
+  "jurisdiction": "SET-YOUR-COUNTRY",
+  "effectiveDate": "2026-07-27",
+
+  "_adsense": "Leave empty to ship with no ads and no third-party requests. Set to your ca-pub-XXXXXXXXXXXXXXXX id to inject the AdSense tag and generate ads.txt. Google's certified CMP is then enabled from the AdSense dashboard under Privacy & messaging — it is delivered through this same tag, so no separate consent script is needed.",
+  "adsensePublisherId": "",
+
+  "_analytics": "No analytics are used. Adding any means updating the privacy policy in all six locales.",
+  "analytics": false
+}
