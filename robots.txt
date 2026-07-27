@@ -50,4 +50,4 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-Sitemap: https://aloud.app/sitemap.xml
+Sitemap: https://readaloud-drab.vercel.app/sitemap.xml
