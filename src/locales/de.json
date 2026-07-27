@@ -1,0 +1,252 @@
+{
+  "code": "de",
+  "lang": "de",
+  "dir": "ltr",
+  "name": "Deutsch",
+  "path": "/de/",
+  "meta": {
+    "title": "Aloud — Text vorlesen, Teleprompter und Diktat, kostenlos",
+    "description": "Text einfügen und vorlesen lassen, als Teleprompter ablaufen lassen oder per Stimme diktieren. Drei Werkzeuge in einer kostenlosen Web-App. Ohne Anmeldung, ohne Installation.",
+    "ogTitle": "Aloud — Text vorlesen, Teleprompter und Diktat, kostenlos",
+    "ogDescription": "Jeden Text vorlesen lassen, als Teleprompter nutzen oder per Stimme diktieren. Kostenlos, im Browser.",
+    "ogAlt": "Aloud: Sprachausgabe, Teleprompter und Diktat.",
+    "schemaDescription": "Aloud ist ein kostenloses Browser-Werkzeug, das mit einem einzigen Text drei Aufgaben erfüllt: Es liest ihn mit einer gewählten Stimme vor, lässt ihn als Teleprompter ablaufen und schreibt mit, was Sie diktieren.",
+    "h1sr": " — Sprachausgabe, Teleprompter und Diktat, kostenlos im Browser",
+    "features": [
+      "Sprachausgabe mit allen auf dem Gerät installierten Stimmen",
+      "Wortgenaue Hervorhebung beim Mitlesen",
+      "Teleprompter mit einstellbaren Wörtern pro Minute",
+      "Spiegelmodus für die Teleprompter-Scheibe",
+      "Diktat per Stimme (Sprache zu Text)",
+      "Navigierbare Wellenform aus dem Text erzeugt",
+      "Unterstützung für Rechts-nach-links-Schriften und CJK",
+      "Dunkles und helles Design",
+      "Läuft ohne Konto und ohne Installation"
+    ]
+  },
+  "ui": {
+    "modeListen": "HÖREN",
+    "modePrompt": "PROMPTER",
+    "modeDictate": "DIKTAT",
+    "standby": "BEREIT",
+    "onAir": "ON AIR",
+    "held": "PAUSE",
+    "recording": "AUFNAHME",
+    "cast": "STIMME",
+    "daylight": "HELL",
+    "booth": "STUDIO",
+    "themeSwitch": "Design wechseln",
+    "castTitle": "Besetzung",
+    "castLead": "Alle auf diesem Gerät installierten Stimmen. Hören Sie eine an, bevor Sie sich festlegen.",
+    "castFilter": "Nach Name oder Sprache filtern",
+    "close": "SCHLIESSEN",
+    "groupYours": "IHRE SPRACHEN",
+    "groupOther": "ANDERE SPRACHEN",
+    "tagOnAir": "ON AIR",
+    "audition": "ANHÖREN",
+    "noMatch": "Keine Stimme passt dazu.",
+    "auditionLine": "Hallo. Ich bin {name}. So klinge ich.",
+    "rate": "TEMPO",
+    "pitch": "TONHÖHE",
+    "pace": "LAUFTEMPO",
+    "size": "GRÖSSE",
+    "mirror": "SPIEGEL",
+    "mirrorTitle": "Für die Prompter-Scheibe spiegeln",
+    "full": "VOLLBILD",
+    "fullTitle": "Vollbild",
+    "play": "Abspielen",
+    "pause": "Pause",
+    "playTitle": "Abspielen — Leertaste",
+    "record": "Aufnehmen",
+    "recordTitle": "Aufnehmen — Leertaste",
+    "stopRec": "Aufnahme beenden",
+    "stopRecTitle": "Aufnahme beenden — Leertaste",
+    "jumpBack": "ZURÜCK ZUR GESPROCHENEN ZEILE",
+    "loadSample": "Beispiel laden",
+    "hearBack": "anhören",
+    "copy": "kopieren",
+    "copied": "kopiert",
+    "download": "herunterladen",
+    "saved": "gespeichert",
+    "clear": "löschen",
+    "undoClear": "rückgängig",
+    "emptyListen": "Text eingeben oder einfügen, oder",
+    "emptyDictate": "Noch nichts — Aufnahme drücken, oder",
+    "statWords": "Wörter",
+    "statChars": "Zeichen",
+    "statSpeech": "{n} {unit} · {t} Sprechzeit",
+    "statPrompt": "{n} {unit} · {t} Lesezeit",
+    "micNote": "Chrome sendet Mikrofon-Audio zur Transkription an eigene Server. Diktieren Sie nichts Vertrauliches.",
+    "micBlocked": "Mikrofon blockiert. Erlauben Sie es in den Browsereinstellungen, um zu diktieren.",
+    "noDictation": "Diktat benötigt Chrome, Edge oder ein aktuelles Safari.",
+    "labelScript": "Text zum Vorlesen",
+    "labelPrompt": "Teleprompter-Text",
+    "fileName": "aloud-text.txt",
+    "keyPlay": "abspielen",
+    "keyStop": "stoppen",
+    "keyScrub": "spulen",
+    "remembering": "in diesem Browser gespeichert",
+    "notRemembering": "wird nicht gespeichert",
+    "rememberOnTitle": "Ihr Text bleibt in diesem Browser erhalten, damit ein Neuladen ihn nicht verliert. Klicken zum Abschalten.",
+    "rememberOffTitle": "Es wird nichts gespeichert. Klicken, um den Text über Neuladen hinweg zu behalten."
+  },
+  "guide": {
+    "listen": {
+      "line": "Sagen Sie etwas.",
+      "sub": "Text einfügen, Stimme wählen und auf Abspielen drücken, um ihn vorgelesen zu bekommen."
+    },
+    "prompt": {
+      "line": "Fügen Sie Ihren Text ein.",
+      "sub": "Auf Abspielen drücken: Der Text läuft in Ihrem Tempo, während Sie in die Kamera lesen."
+    },
+    "dictate": {
+      "line": "Aufnahme drücken und sprechen.",
+      "sub": "Ihre Worte werden zum Text. Sagen Sie „neue Zeile“, „Komma“ oder „Punkt“ zum Setzen von Satzzeichen. Klicken Sie hier, um zu starten."
+    }
+  },
+  "a11y": {
+    "playing": "Wird abgespielt.",
+    "paused": "Pausiert.",
+    "resumed": "Fortgesetzt.",
+    "stopped": "Gestoppt.",
+    "cleared": "Text gelöscht. Zwölf Sekunden lang kann rückgängig gemacht werden.",
+    "restored": "Text wiederhergestellt.",
+    "copied": "Text in die Zwischenablage kopiert.",
+    "downloaded": "Text heruntergeladen.",
+    "readingBack": "Ihr Diktat wird vorgelesen.",
+    "recording": "Aufnahme läuft. Sprechen Sie jetzt.",
+    "recStopped": "Aufnahme beendet.",
+    "micDenied": "Mikrofonzugriff verweigert.",
+    "scriptRestored": "Ihr letzter Text wurde wiederhergestellt.",
+    "mirrorOn": "Für die Prompter-Scheibe gespiegelt.",
+    "mirrorOff": "Spiegel aus.",
+    "noDictation": "Dieser Browser unterstützt kein Diktat. Versuchen Sie Chrome oder Edge.",
+    "castOf": "{name} gewählt, {lang}.",
+    "auditionOf": "{name} anhören",
+    "pasted": "{n} Wörter eingefügt. Bereit zum Abspielen.",
+    "modeListen": "Hörmodus. Eine Stimme liest Ihnen den Text vor.",
+    "modePrompt": "Teleprompter-Modus. Sie lesen vor, der Text läuft in Ihrem Tempo.",
+    "modeDictate": "Diktatmodus. Aufnahme drücken und sprechen; Ihre Worte werden zum Text.",
+    "rememberOn": "Ihr Text wird in diesem Browser aufbewahrt.",
+    "rememberOff": "Speichern aus. Der gespeicherte Text wurde entfernt."
+  },
+  "sample": "Am schnellsten merkt man, ob ein Text funktioniert, wenn man ihn hört.\n\nLesen Sie einen Satz laut vor, und die schwachen Stellen verraten sich von selbst. Ein zu langer Nebensatz zwingt Sie, an der falschen Stelle Luft zu holen. Ein Wort, das Sie gewählt haben, weil es klug klang, erweist sich als schwer aussprechbar.\n\nFügen Sie also etwas ein. Einen Artikel, den Sie gespeichert und nie zu Ende gelesen haben. Den Entwurf einer E-Mail, bevor Sie sie abschicken. Ein Kapitel, das Sie beim Abwasch hören wollen. Wählen Sie eine Stimme, stellen Sie ein passendes Tempo ein und folgen Sie der Marke über die Seite.",
+  "content": {
+    "langLabel": "Sprache",
+    "footer": "Aloud — Sprachausgabe, Teleprompter und Diktat. Läuft in Ihrem Browser.",
+    "sitemap": "Sitemap",
+    "sections": [
+      {
+        "h2": "Was ist Aloud?",
+        "blocks": [
+          {
+            "p": "<strong>Aloud ist ein kostenloses Browser-Werkzeug, das mit einem einzigen Text drei Aufgaben erfüllt.</strong> Es liest Ihren Text mit jeder auf Ihrem Gerät installierten Stimme vor, lässt denselben Text als Teleprompter ablaufen, während Sie präsentieren, und nimmt Diktate auf, damit Sie sprechend schreiben können. Nichts zu installieren, kein Konto, keine Nutzungsgrenze, denn die Sprachausgabe ist die, die Ihr Browser ohnehin mitbringt."
+          }
+        ]
+      },
+      {
+        "h2": "Was ist der Unterschied zwischen Sprachausgabe, Vorlesen und Teleprompter?",
+        "blocks": [
+          {
+            "p": "Die Begriffe werden oft gleichgesetzt, aber es sind drei verschiedene Dinge, und der Unterschied liegt schlicht darin, <strong>wer spricht</strong>."
+          },
+          {
+            "cards": [
+              {
+                "tag": "HÖREN",
+                "h3": "Sprachausgabe und Mitlesen",
+                "p": "Die Maschine spricht, Sie hören zu. Beim Mitlesen kommt eine synchrone Hervorhebung dazu, sodass Sie den Wörtern auf dem Bildschirm folgen können, während sie gesprochen werden. Gut zum Korrekturlesen, für Artikel und für Barrierefreiheit."
+              },
+              {
+                "tag": "PROMPTER",
+                "h3": "Teleprompter",
+                "p": "Sie sprechen. Der Text läuft in dem Tempo, das Sie einstellen, damit Sie lesen und dabei in die Kamera schauen können. Keine synthetische Stimme im Spiel. Gut für Videos, Vorträge und Kamerabeiträge."
+              },
+              {
+                "tag": "DIKTAT",
+                "h3": "Sprache zu Text",
+                "p": "Sie sprechen, die Maschine schreibt. Ihre Worte werden zum Text, den Sie sich danach vorlesen lassen oder durch den Teleprompter schicken können. Gut zum Entwerfen ohne Tippen."
+              }
+            ]
+          },
+          {
+            "p": "Sie teilen sich eine Oberfläche, weil sie dasselbe brauchen: einen großen, gut lesbaren Text, eine Steuerung, eine Temporegelung und eine Positionsmarke. In Aloud ist der Text, den Sie diktieren, derselbe, den die Stimme vorliest und den der Prompter ablaufen lässt."
+          }
+        ]
+      },
+      {
+        "h2": "Wie benutzt man es?",
+        "blocks": [
+          {
+            "ol": [
+              "<strong>Text hineingeben.</strong> Tippen, einfügen, das Beispiel laden oder auf DIKTAT wechseln und sprechen.",
+              "<strong>Modus wählen.</strong> HÖREN, um vorgelesen zu bekommen, PROMPTER, um selbst zu lesen.",
+              "<strong>Tempo einstellen.</strong> Tempo und Tonhöhe im Hörmodus; Wörter pro Minute und Schriftgröße im Prompter-Modus.",
+              "<strong>Abspielen drücken.</strong> Ziehen Sie über die Wellenform, um zu einem beliebigen Wort zu springen, oder nutzen Sie die Pfeiltasten. Leertaste spielt und pausiert, Escape stoppt."
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Funktioniert es in meiner Sprache?",
+        "blocks": [
+          {
+            "p": "Ja. Aloud liest jede Sprache, für die eine Stimme installiert ist, und die Stimmenliste ist so sortiert, dass Ihre eigenen Sprachen zuerst kommen. Das Diktat hört in der Sprache der gewählten Stimme zu."
+          },
+          {
+            "p": "Rechts-nach-links-Schriften wie Arabisch, Hebräisch und Persisch werden von rechts nach links gesetzt. Chinesisch, Japanisch, Koreanisch und Thai werden nach Zeichen statt nach Wörtern gezählt und getaktet, weil sie Wörter nicht durch Leerzeichen trennen, und der Teleprompter stellt seinen Regler von Wörtern pro Minute auf Zeichen pro Minute um."
+          }
+        ]
+      },
+      {
+        "h2": "Ist Ihr Text privat?",
+        "blocks": [
+          {
+            "p": "<strong>Im Hör- und Prompter-Modus ja.</strong> Die Sprachausgabe entsteht auf Ihrem eigenen Gerät, durch Ihren Browser und Ihr Betriebssystem. Nichts, was Sie einfügen, wird hochgeladen, gespeichert oder an einen Server gesendet, und das Werkzeug funktioniert auch ohne Netz weiter. Ihr Text wird in Ihrem eigenen Browser gesichert, damit ein versehentliches Neuladen ihn nicht verliert."
+          },
+          {
+            "p": "<strong>Das Diktat ist die Ausnahme, und das sollte man wissen.</strong> Chrome und Edge transkribieren, indem sie Ihr Mikrofon-Audio an ihre eigenen Sprachserver streamen. So funktioniert die Web-Spracherkennungs-API in diesen Browsern; es ist keine Entscheidung von Aloud. Diktieren Sie nichts Vertrauliches."
+          },
+          {
+            "p": "An einem gemeinsam genutzten oder öffentlichen Rechner schalten Sie <strong>in diesem Browser gespeichert</strong> in der Fußzeile ab. Dann wird nichts mehr geschrieben und bereits Gespeichertes gelöscht. Andernfalls würde die nächste Person, die diese Seite im selben Browserprofil öffnet, Ihren Text sehen."
+          }
+        ]
+      },
+      {
+        "h2": "Wie schnell sollte ein Teleprompter laufen?",
+        "blocks": [
+          {
+            "p": "Aloud verwendet standardmäßig <strong>130 Wörter pro Minute</strong>, ein ruhiges Vortragstempo. Umgangssprache liegt eher bei 150, Hörbuchsprecher bei etwa 155. Statt einer Zahl zu vertrauen, lesen Sie einen Absatz in dem Tempo laut, das Sie wirklich wollen, und regeln Sie nach, bis die Marke Ihnen folgt. Längere Wörter werden länger gehalten, sodass die Marke sich bewegt wie echte Sprache, statt wie ein Metronom zu ticken."
+          }
+        ]
+      }
+    ],
+    "faqHeading": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Ist Aloud kostenlos?",
+        "a": "Ja. Aloud ist kostenlos und benötigt weder Konto noch Installation. Es nutzt die Sprachausgabe, die in Ihrem Browser und Betriebssystem bereits vorhanden ist, daher gibt es keine Nutzungsgrenze und keine API-Kosten."
+      },
+      {
+        "q": "Kann ich das Audio als MP3 herunterladen?",
+        "a": "Nein. Die Sprachausgabe des Browsers gibt den Ton direkt aus und stellt keinen aufnehmbaren Datenstrom bereit, es gibt also keine Datei zum Speichern. Für den Export von Audio braucht es einen Cloud-Dienst für Sprachausgabe."
+      },
+      {
+        "q": "Wie lang darf der Text sein?",
+        "a": "Es gibt keine feste Grenze und nichts wird gekürzt. Lange Texte werden intern in satzgroße Stücke geteilt, was zugleich einen Chrome-Fehler umgeht, der die Sprachausgabe nach etwa fünfzehn Sekunden abschneidet. Nach dem Einfügen eines langen Textes springen Sie zum ersten Wort zurück, damit Sie nicht auf das Ende Ihres eigenen Textes blicken."
+      },
+      {
+        "q": "In welchen Browsern funktioniert Aloud?",
+        "a": "Die Sprachausgabe funktioniert in Chrome, Edge, Safari und den meisten modernen Browsern. Der Teleprompter funktioniert überall, da er gar keine Sprachausgabe braucht. Das Diktat beruht auf der Web-Spracherkennungs-API und funktioniert in Chrome, Edge und aktuellen Safari-Versionen."
+      },
+      {
+        "q": "Warum habe ich auf einem Gerät mehr Stimmen als auf einem anderen?",
+        "a": "Die Stimmenliste kommt von Ihrem Betriebssystem, nicht von Aloud. macOS, Windows, Android und iOS liefern jeweils andere Stimmen mit, und in den Systemeinstellungen lassen sich weitere installieren. Aloud sortiert die natürlich klingenden nach oben und lässt Sie jede vorher anhören."
+      },
+      {
+        "q": "Kann es auch andere Sprachen als Deutsch lesen?",
+        "a": "Ja. Jede auf Ihrem Gerät installierte Stimme wird mit ihrem Sprachcode aufgeführt, wobei Ihre eigenen Sprachen zuerst gruppiert sind. Wählen Sie eine Stimme in dieser Sprache, und der Text wird darin vorgelesen. Die gewählte Stimme bestimmt auch, welche Sprache das Diktat hört."
+      }
+    ]
+  }
+}

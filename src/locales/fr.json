@@ -1,0 +1,252 @@
+{
+  "code": "fr",
+  "lang": "fr",
+  "dir": "ltr",
+  "name": "Français",
+  "path": "/fr/",
+  "meta": {
+    "title": "Aloud — Synthèse vocale, prompteur et dictée, gratuit",
+    "description": "Collez un texte et écoutez-le lu à voix haute, utilisez-le comme prompteur ou dictez à la voix. Trois outils dans une appli web gratuite. Sans compte ni installation.",
+    "ogTitle": "Aloud — Synthèse vocale, prompteur et dictée, gratuit",
+    "ogDescription": "Écoutez n'importe quel texte lu à voix haute, utilisez-le comme prompteur ou dictez à la voix. Gratuit, dans le navigateur.",
+    "ogAlt": "Aloud : synthèse vocale, prompteur et dictée.",
+    "schemaDescription": "Aloud est un outil web gratuit qui fait trois choses avec un même texte : il le lit à voix haute avec la voix de votre choix, le déroule comme un prompteur et transcrit ce que vous dictez.",
+    "h1sr": " — synthèse vocale, prompteur et dictée gratuits dans votre navigateur",
+    "features": [
+      "Synthèse vocale avec toutes les voix installées sur l'appareil",
+      "Surlignage mot à mot pendant la lecture",
+      "Prompteur défilant avec mots par minute réglables",
+      "Mode miroir pour la vitre du prompteur",
+      "Dictée vocale (voix vers texte)",
+      "Forme d'onde navigable générée à partir du texte",
+      "Prise en charge des écritures de droite à gauche et CJK",
+      "Thèmes sombre et clair",
+      "Fonctionne sans compte ni installation"
+    ]
+  },
+  "ui": {
+    "modeListen": "ÉCOUTER",
+    "modePrompt": "PROMPTEUR",
+    "modeDictate": "DICTER",
+    "standby": "EN ATTENTE",
+    "onAir": "À L'ANTENNE",
+    "held": "EN PAUSE",
+    "recording": "ENREGISTRE",
+    "cast": "VOIX",
+    "daylight": "CLAIR",
+    "booth": "STUDIO",
+    "themeSwitch": "Changer de thème",
+    "castTitle": "Distribution",
+    "castLead": "Toutes les voix installées sur cette machine. Écoutez-en une avant de choisir.",
+    "castFilter": "Filtrer par nom ou par langue",
+    "close": "FERMER",
+    "groupYours": "VOS LANGUES",
+    "groupOther": "AUTRES LANGUES",
+    "tagOnAir": "À L'ANTENNE",
+    "audition": "ESSAYER",
+    "noMatch": "Aucune voix ne correspond.",
+    "auditionLine": "Bonjour. Je suis {name}. Voici ma voix.",
+    "rate": "VITESSE",
+    "pitch": "HAUTEUR",
+    "pace": "RYTHME",
+    "size": "TAILLE",
+    "mirror": "MIROIR",
+    "mirrorTitle": "Inverser pour la vitre du prompteur",
+    "full": "PLEIN ÉCRAN",
+    "fullTitle": "Plein écran",
+    "play": "Lire",
+    "pause": "Pause",
+    "playTitle": "Lire — Espace",
+    "record": "Enregistrer",
+    "recordTitle": "Enregistrer — Espace",
+    "stopRec": "Arrêter l'enregistrement",
+    "stopRecTitle": "Arrêter l'enregistrement — Espace",
+    "jumpBack": "REVENIR À LA LIGNE LUE",
+    "loadSample": "charger un exemple",
+    "hearBack": "réécouter",
+    "copy": "copier",
+    "copied": "copié",
+    "download": "télécharger",
+    "saved": "enregistré",
+    "clear": "effacer",
+    "undoClear": "annuler",
+    "emptyListen": "Saisissez ou collez un texte, ou",
+    "emptyDictate": "Rien pour l'instant — appuyez sur enregistrer, ou",
+    "statWords": "mots",
+    "statChars": "caractères",
+    "statSpeech": "{n} {unit} · {t} de lecture",
+    "statPrompt": "{n} {unit} · {t} à lire",
+    "micNote": "Chrome envoie l'audio du microphone à ses propres serveurs pour le transcrire. Ne dictez rien de confidentiel.",
+    "micBlocked": "Microphone bloqué. Autorisez-le dans les réglages du navigateur pour dicter.",
+    "noDictation": "La dictée nécessite Chrome, Edge ou une version récente de Safari.",
+    "labelScript": "Texte à lire à voix haute",
+    "labelPrompt": "Texte du prompteur",
+    "fileName": "texte-aloud.txt",
+    "keyPlay": "lire",
+    "keyStop": "arrêter",
+    "keyScrub": "parcourir",
+    "remembering": "enregistré dans ce navigateur",
+    "notRemembering": "rien n'est enregistré",
+    "rememberOnTitle": "Votre texte est conservé dans ce navigateur pour qu'un rafraîchissement ne le perde pas. Cliquez pour arrêter.",
+    "rememberOffTitle": "Rien n'est conservé. Cliquez pour garder votre texte d'un rafraîchissement à l'autre."
+  },
+  "guide": {
+    "listen": {
+      "line": "Dites quelque chose.",
+      "sub": "Collez un texte, choisissez une voix et appuyez sur lire pour l'entendre à voix haute."
+    },
+    "prompt": {
+      "line": "Collez votre texte.",
+      "sub": "Appuyez sur lire : le texte défile à votre rythme pendant que vous lisez face caméra."
+    },
+    "dictate": {
+      "line": "Enregistrez et parlez.",
+      "sub": "Vos mots deviennent le texte. Dites « nouvelle ligne », « virgule » ou « point » pour ponctuer. Cliquez ici pour commencer."
+    }
+  },
+  "a11y": {
+    "playing": "Lecture en cours.",
+    "paused": "En pause.",
+    "resumed": "Reprise.",
+    "stopped": "Arrêté.",
+    "cleared": "Texte effacé. Vous pouvez annuler pendant douze secondes.",
+    "restored": "Texte restauré.",
+    "copied": "Texte copié dans le presse-papiers.",
+    "downloaded": "Texte téléchargé.",
+    "readingBack": "Relecture de votre dictée.",
+    "recording": "Enregistrement. Parlez maintenant.",
+    "recStopped": "Enregistrement arrêté.",
+    "micDenied": "Autorisation du microphone refusée.",
+    "scriptRestored": "Votre dernier texte a été restauré.",
+    "mirrorOn": "Inversé pour la vitre du prompteur.",
+    "mirrorOff": "Miroir désactivé.",
+    "noDictation": "La dictée n'est pas prise en charge par ce navigateur. Essayez Chrome ou Edge.",
+    "castOf": "{name} choisie, {lang}.",
+    "auditionOf": "Écouter {name}",
+    "pasted": "{n} mots collés. Prêt à lire.",
+    "modeListen": "Mode écoute. Une voix vous lit le texte.",
+    "modePrompt": "Mode prompteur. Vous lisez à voix haute, le texte défile à votre rythme.",
+    "modeDictate": "Mode dictée. Appuyez sur enregistrer et parlez ; vos mots deviennent le texte.",
+    "rememberOn": "Votre texte sera conservé dans ce navigateur.",
+    "rememberOff": "Enregistrement désactivé. Le texte conservé a été supprimé."
+  },
+  "sample": "Le moyen le plus rapide de savoir si un texte fonctionne, c'est de l'entendre.\n\nLisez une phrase à voix haute et les passages mous se dénoncent tout seuls. Une proposition trop longue vous oblige à respirer au mauvais endroit. Un mot choisi parce qu'il sonnait bien se révèle difficile à prononcer.\n\nAlors collez quelque chose ici. Un article que vous aviez gardé sans jamais le finir. Le brouillon d'un courriel avant de l'envoyer. Un chapitre que vous voulez écouter en faisant la vaisselle. Choisissez une voix, réglez la vitesse qui vous convient et suivez le repère sur la page.",
+  "content": {
+    "langLabel": "Langue",
+    "footer": "Aloud — synthèse vocale, prompteur et dictée. Fonctionne dans votre navigateur.",
+    "sitemap": "Plan du site",
+    "sections": [
+      {
+        "h2": "Qu'est-ce qu'Aloud ?",
+        "blocks": [
+          {
+            "p": "<strong>Aloud est un outil web gratuit qui fait trois choses avec un même texte.</strong> Il le lit à voix haute avec n'importe quelle voix installée sur votre appareil, le déroule comme un prompteur pendant que vous présentez, et prend la dictée pour que vous écriviez en parlant. Rien à installer, pas de compte, pas de limite d'usage, parce que le moteur vocal est celui que votre navigateur possède déjà."
+          }
+        ]
+      },
+      {
+        "h2": "Quelle est la différence entre synthèse vocale, lecture à voix haute et prompteur ?",
+        "blocks": [
+          {
+            "p": "On emploie ces termes indifféremment, mais ce sont trois choses distinctes, et la différence tient simplement à <strong>qui parle</strong>."
+          },
+          {
+            "cards": [
+              {
+                "tag": "ÉCOUTER",
+                "h3": "Synthèse vocale et lecture suivie",
+                "p": "La machine parle, vous écoutez. La lecture suivie ajoute un surlignage synchronisé pour suivre les mots à l'écran pendant qu'ils sont prononcés. Utile pour relire, pour les articles et pour l'accessibilité."
+              },
+              {
+                "tag": "PROMPTEUR",
+                "h3": "Prompteur",
+                "p": "C'est vous qui parlez. Le texte défile au rythme que vous fixez pour que vous lisiez en regardant la caméra. Aucune voix synthétique n'intervient. Utile pour les vidéos, les conférences et les prises face caméra."
+              },
+              {
+                "tag": "DICTER",
+                "h3": "Voix vers texte",
+                "p": "Vous parlez, la machine écrit. Vos mots deviennent le texte, que vous pouvez ensuite écouter ou passer au prompteur. Utile pour rédiger sans taper."
+              }
+            ]
+          },
+          {
+            "p": "Ces trois modes partagent une même interface parce qu'ils ont besoin des mêmes choses : un texte grand et lisible, des commandes de lecture, un réglage de vitesse et un repère de position. Dans Aloud, le texte que vous dictez est celui que la voix lit et celui que le prompteur déroule."
+          }
+        ]
+      },
+      {
+        "h2": "Comment l'utiliser ?",
+        "blocks": [
+          {
+            "ol": [
+              "<strong>Mettez un texte.</strong> Saisissez-le, collez-le, chargez l'exemple, ou passez en DICTER et parlez.",
+              "<strong>Choisissez le mode.</strong> ÉCOUTER pour qu'on vous lise le texte, PROMPTEUR pour le lire vous-même.",
+              "<strong>Réglez le rythme.</strong> Vitesse et hauteur en mode écoute ; mots par minute et taille de police en mode prompteur.",
+              "<strong>Appuyez sur lire.</strong> Parcourez la forme d'onde pour sauter à n'importe quel mot, ou utilisez les flèches. Espace lit et met en pause, Échap arrête."
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Est-ce que ça marche dans ma langue ?",
+        "blocks": [
+          {
+            "p": "Oui. Aloud lit toutes les langues pour lesquelles une voix est installée, et la liste des voix est triée pour que vos langues apparaissent en premier. La dictée écoute dans la langue de la voix que vous choisissez."
+          },
+          {
+            "p": "Les écritures de droite à gauche comme l'arabe, l'hébreu et le persan sont disposées de droite à gauche. Le chinois, le japonais, le coréen et le thaï sont comptés et cadencés par caractère plutôt que par mot, car ils ne séparent pas les mots par des espaces, et le prompteur passe alors des mots par minute aux caractères par minute."
+          }
+        ]
+      },
+      {
+        "h2": "Votre texte est-il privé ?",
+        "blocks": [
+          {
+            "p": "<strong>En mode écoute et prompteur, oui.</strong> La voix est générée sur votre appareil, par votre navigateur et votre système. Rien de ce que vous collez n'est téléversé, stocké ni envoyé à un serveur, et l'outil continue de fonctionner hors ligne. Votre texte est enregistré dans votre navigateur pour qu'un rafraîchissement accidentel ne le perde pas."
+          },
+          {
+            "p": "<strong>La dictée fait exception, et il faut le savoir.</strong> Chrome et Edge transcrivent en envoyant l'audio de votre microphone à leurs propres serveurs. C'est ainsi que fonctionne l'API de reconnaissance vocale du web dans ces navigateurs, ce n'est pas un choix d'Aloud. Ne dictez rien de confidentiel."
+          },
+          {
+            "p": "Sur un ordinateur partagé ou public, désactivez <strong>enregistré dans ce navigateur</strong> en pied de page. Plus rien n'est alors écrit et ce qui était conservé est supprimé. Sinon, la personne suivante qui ouvrirait cette page dans le même profil de navigateur verrait votre texte."
+          }
+        ]
+      },
+      {
+        "h2": "À quelle vitesse régler un prompteur ?",
+        "blocks": [
+          {
+            "p": "Aloud utilise par défaut <strong>130 mots par minute</strong>, un rythme de présentation posé. La conversation tourne plutôt autour de 150 et la narration de livres audio autour de 155. Plutôt que de vous fier à un chiffre, lisez un paragraphe à voix haute au rythme que vous voulez vraiment et ajustez jusqu'à ce que le repère vous suive. Les mots longs sont tenus plus longtemps, si bien que le repère avance comme la parole réelle au lieu de battre la mesure."
+          }
+        ]
+      }
+    ],
+    "faqHeading": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Aloud est-il gratuit ?",
+        "a": "Oui. Aloud est gratuit et ne demande ni compte ni installation. Il utilise le moteur vocal déjà présent dans votre navigateur et votre système d'exploitation, il n'y a donc ni limite d'usage ni coût d'API."
+      },
+      {
+        "q": "Puis-je télécharger l'audio en MP3 ?",
+        "a": "Non. Le moteur vocal du navigateur joue l'audio directement et n'expose aucun flux enregistrable, il n'y a donc aucun fichier à sauvegarder. Exporter l'audio suppose un service de synthèse vocale dans le cloud."
+      },
+      {
+        "q": "Quelle longueur de texte est acceptée ?",
+        "a": "Il n'y a pas de limite fixe et rien n'est tronqué. Les longs textes sont découpés en interne en morceaux de la taille d'une phrase, ce qui évite au passage un bogue de Chrome qui coupe la voix au bout d'une quinzaine de secondes. Coller un long texte vous ramène au premier mot, pour ne pas vous laisser devant la fin de votre propre texte."
+      },
+      {
+        "q": "Dans quels navigateurs Aloud fonctionne-t-il ?",
+        "a": "La synthèse vocale fonctionne dans Chrome, Edge, Safari et la plupart des navigateurs modernes. Le prompteur fonctionne partout, puisqu'il n'a besoin d'aucun moteur vocal. La dictée repose sur l'API de reconnaissance vocale et fonctionne dans Chrome, Edge et les versions récentes de Safari."
+      },
+      {
+        "q": "Pourquoi ai-je plus de voix sur un appareil que sur un autre ?",
+        "a": "La liste des voix vient de votre système d'exploitation, pas d'Aloud. macOS, Windows, Android et iOS fournissent des voix différentes, et vous pouvez en installer d'autres dans les réglages système. Aloud remonte les plus naturelles en tête et vous laisse toutes les essayer avant de choisir."
+      },
+      {
+        "q": "Peut-il lire d'autres langues que le français ?",
+        "a": "Oui. Toutes les voix installées sur votre appareil sont listées avec leur code de langue, vos propres langues étant regroupées en premier. Choisissez une voix dans cette langue et le texte sera lu dans cette langue. La voix choisie détermine aussi la langue que la dictée écoute."
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+# Aloud
+
+> A free browser tool that does three jobs on one script: reads text aloud in a chosen
+> voice, runs that text as a scrolling teleprompter, and transcribes speech to text by
+> dictation. No account, no installation, no usage limit.
+
+Aloud runs entirely on the Web Speech API built into the browser, so text-to-speech and
+teleprompter use cost nothing and work offline.
+
+## Languages
+
+The interface ships in English (https://aloud.app/), Spanish (/es/), French (/fr/),
+German (/de/), Arabic (/ar/) and Simplified Chinese (/zh/). Each is a separate static
+page with its own metadata and hreflang alternates.
+
+The tool reads and dictates in any language the device has a voice installed for, which
+is independent of the interface language. Right-to-left scripts (Arabic, Hebrew, Persian,
+Urdu) are laid out right-to-left. Chinese, Japanese, Korean and Thai are counted and
+paced by character rather than word, because they are not written with spaces, and the
+teleprompter dial switches from words per minute to characters per minute for them.
+Speech-duration estimates use per-language character rates rather than one global
+words-per-minute figure.
+
+## The three modes
+
+- **LISTEN (text to speech / read aloud)**: the machine speaks and the user listens. Every
+  voice installed on the device is selectable and auditionable. A lime marker slides
+  word-by-word beneath the text as it is spoken, so the user can read along. Speech rate
+  (0.5x–2x) and pitch are adjustable.
+- **PROMPT (teleprompter)**: the user speaks. No synthetic voice is involved. The script
+  scrolls continuously to hold the current line at a fixed reading height, paced in words
+  per minute (default 130). Longer words are held longer so the pacing drifts like real
+  speech. Includes a mirror toggle for beam-splitter prompter glass and a fullscreen mode.
+- **DICTATE (speech to text)**: the user speaks and the words become the script, which can
+  then be read back or run through the teleprompter.
+
+## Key facts
+
+- Free, no sign-up, no installation, no API key.
+- Text-to-speech and teleprompter run fully on-device; pasted text is never uploaded.
+- Dictation is the exception: Chrome and Edge stream microphone audio to their own speech
+  servers to transcribe it. Confidential material should not be dictated.
+- Audio cannot be exported as MP3. The browser speech engine plays audio directly and
+  exposes no recordable stream; that requires a cloud text-to-speech service.
+- No length limit and no trimming. Long scripts are split into sentence-sized pieces
+  internally, which also avoids a Chrome bug that cuts speech off after about 15 seconds.
+- The voice list comes from the operating system, so it differs between macOS, Windows,
+  Android and iOS. More voices can be installed in system settings.
+- Any language with an installed voice is supported; the cast voice also sets the language
+  dictation listens for.
+- The waveform in the transport is generated from the script itself: letter density drives
+  the peaks and punctuation cuts visible dips, so sentence breaks are readable. It is
+  clickable to jump to any word.
+
+## Terminology
+
+Text to speech, read aloud and teleprompter are commonly conflated but differ by who is
+speaking. Text to speech: the machine speaks, the user listens. Read aloud: text to speech
+plus a synced on-screen highlight. Teleprompter: the user speaks and the machine only
+paces the script. Speech to text (dictation) is the reverse direction entirely.
+
+## Browser support
+
+Text to speech: Chrome, Edge, Safari and most modern browsers. Teleprompter: all browsers,
+since it needs no speech engine. Dictation: Chrome and Edge, plus recent Safari.

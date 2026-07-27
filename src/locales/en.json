@@ -1,0 +1,252 @@
+{
+  "code": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "name": "English",
+  "path": "/",
+  "meta": {
+    "title": "Aloud — Free Text to Speech, Teleprompter & Dictation",
+    "description": "Paste any text and hear it read aloud, run it as a scrolling teleprompter, or dictate by voice. Three tools in one free browser app. No sign-up, no install.",
+    "ogTitle": "Aloud — Free Text to Speech, Teleprompter & Dictation",
+    "ogDescription": "Hear any text read aloud, run it as a teleprompter, or dictate by voice. Free, in the browser.",
+    "ogAlt": "Aloud: text to speech, teleprompter and dictation.",
+    "schemaDescription": "Aloud is a free browser tool that does three jobs on one script: it reads text aloud in a chosen voice, runs the same text as a scrolling teleprompter, and transcribes speech to text by dictation.",
+    "h1sr": " — free text to speech, teleprompter and dictation in your browser",
+    "features": [
+      "Text to speech with every voice installed on the device",
+      "Word-level read-along highlighting",
+      "Scrolling teleprompter with adjustable words per minute",
+      "Mirror mode for teleprompter beam-splitter glass",
+      "Voice dictation (speech to text)",
+      "Scrubbable waveform built from the script",
+      "Right-to-left and CJK script support",
+      "Dark and light themes",
+      "Runs without an account or installation"
+    ]
+  },
+  "ui": {
+    "modeListen": "LISTEN",
+    "modePrompt": "PROMPT",
+    "modeDictate": "DICTATE",
+    "standby": "STANDBY",
+    "onAir": "ON AIR",
+    "held": "HELD",
+    "recording": "RECORDING",
+    "cast": "CAST",
+    "daylight": "DAYLIGHT",
+    "booth": "BOOTH",
+    "themeSwitch": "Switch theme",
+    "castTitle": "Casting",
+    "castLead": "Every voice installed on this machine. Audition one before you commit.",
+    "castFilter": "Filter by name or language",
+    "close": "CLOSE",
+    "groupYours": "YOUR LANGUAGES",
+    "groupOther": "OTHER LANGUAGES",
+    "tagOnAir": "ON AIR",
+    "audition": "AUDITION",
+    "noMatch": "No voice matches that.",
+    "auditionLine": "Hello. I'm {name}. This is how I sound.",
+    "rate": "RATE",
+    "pitch": "PITCH",
+    "pace": "PACE",
+    "size": "SIZE",
+    "mirror": "MIRROR",
+    "mirrorTitle": "Mirror for prompter glass",
+    "full": "FULL",
+    "fullTitle": "Fullscreen",
+    "play": "Play",
+    "pause": "Pause",
+    "playTitle": "Play — Space",
+    "record": "Record",
+    "recordTitle": "Record — Space",
+    "stopRec": "Stop recording",
+    "stopRecTitle": "Stop recording — Space",
+    "jumpBack": "BACK TO THE SPOKEN LINE",
+    "loadSample": "load a sample",
+    "hearBack": "hear it back",
+    "copy": "copy",
+    "copied": "copied",
+    "download": "download",
+    "saved": "saved",
+    "clear": "clear",
+    "undoClear": "undo clear",
+    "emptyListen": "Type or paste a script, or",
+    "emptyDictate": "Nothing yet — press record, or",
+    "statWords": "words",
+    "statChars": "characters",
+    "statSpeech": "{n} {unit} · {t} of speech",
+    "statPrompt": "{n} {unit} · {t} to read",
+    "micNote": "Chrome sends microphone audio to its own servers to transcribe. Do not dictate anything confidential.",
+    "micBlocked": "Microphone blocked. Allow it in your browser settings to dictate.",
+    "noDictation": "Dictation needs Chrome, Edge or a recent Safari.",
+    "labelScript": "Script to read aloud",
+    "labelPrompt": "Teleprompter script",
+    "fileName": "aloud-script.txt",
+    "keyPlay": "play",
+    "keyStop": "stop",
+    "keyScrub": "scrub",
+    "remembering": "saving to this browser",
+    "notRemembering": "not saving",
+    "rememberOnTitle": "Your script is kept in this browser so a refresh does not lose it. Click to stop saving.",
+    "rememberOffTitle": "Nothing is stored. Click to keep your script across refreshes."
+  },
+  "guide": {
+    "listen": {
+      "line": "Type something.",
+      "sub": "Paste a script, cast a voice, and press play to hear it read aloud."
+    },
+    "prompt": {
+      "line": "Paste your script.",
+      "sub": "Press play and it scrolls at your pace while you read it to camera."
+    },
+    "dictate": {
+      "line": "Press record and speak.",
+      "sub": "Your words become the script. Say “new line”, “comma” or “period” to punctuate. Click anywhere here to start."
+    }
+  },
+  "a11y": {
+    "playing": "Playing.",
+    "paused": "Paused.",
+    "resumed": "Resumed.",
+    "stopped": "Stopped.",
+    "cleared": "Script cleared. Undo is available for twelve seconds.",
+    "restored": "Script restored.",
+    "copied": "Script copied to the clipboard.",
+    "downloaded": "Script downloaded.",
+    "readingBack": "Reading your dictation back.",
+    "recording": "Recording. Speak now.",
+    "recStopped": "Recording stopped.",
+    "micDenied": "Microphone permission denied.",
+    "scriptRestored": "Your last script was restored.",
+    "mirrorOn": "Mirrored for prompter glass.",
+    "mirrorOff": "Mirror off.",
+    "noDictation": "Dictation is not supported in this browser. Try Chrome or Edge.",
+    "castOf": "{name} cast, {lang}.",
+    "auditionOf": "Audition {name}",
+    "pasted": "Pasted {n} words. Ready to play.",
+    "modeListen": "Listen mode. A voice reads the script to you.",
+    "modePrompt": "Teleprompter mode. You read aloud, the script scrolls at your pace.",
+    "modeDictate": "Dictation mode. Press record and speak; your words become the script.",
+    "rememberOn": "Your script will be kept in this browser.",
+    "rememberOff": "Saving off. The stored script has been removed."
+  },
+  "sample": "The quickest way to know whether writing works is to hear it.\n\nRead a sentence out loud and the flabby parts announce themselves. A clause that runs too long makes you take a breath in the wrong place. A word you chose because it sounded clever turns out to be hard to say.\n\nSo paste something here. An article you saved and never finished. A draft of an email before you send it. A chapter you want to hear while you do the dishes. Cast a voice, set a rate that suits you, and follow the marker across the page.",
+  "content": {
+    "langLabel": "Language",
+    "footer": "Aloud — text to speech, teleprompter and dictation. Runs in your browser.",
+    "sitemap": "Sitemap",
+    "sections": [
+      {
+        "h2": "What is Aloud?",
+        "blocks": [
+          {
+            "p": "<strong>Aloud is a free browser tool that does three jobs on one script.</strong> It reads your text out loud in any voice installed on your device, runs that same text as a scrolling teleprompter while you present, and takes dictation so you can write by speaking. Nothing to install, no account, no usage limit, because the speech engine is the one already built into your browser."
+          }
+        ]
+      },
+      {
+        "h2": "What is the difference between text to speech, read aloud and a teleprompter?",
+        "blocks": [
+          {
+            "p": "These get used interchangeably, but they are three different things, and the difference is simply <strong>who is doing the speaking</strong>."
+          },
+          {
+            "cards": [
+              {
+                "tag": "LISTEN",
+                "h3": "Text to speech & read aloud",
+                "p": "The machine speaks, you listen. Read-aloud adds a synced highlight so you can follow the words on screen while they are spoken. Good for proofreading, articles and accessibility."
+              },
+              {
+                "tag": "PROMPT",
+                "h3": "Teleprompter",
+                "p": "You speak. The script scrolls at a pace you set so you can read while looking at the camera. No synthetic voice is involved. Good for videos, talks and pieces to camera."
+              },
+              {
+                "tag": "DICTATE",
+                "h3": "Speech to text",
+                "p": "You speak, the machine writes. Your words become the script, which you can then hear read back or run through the teleprompter. Good for drafting without typing."
+              }
+            ]
+          },
+          {
+            "p": "They share one interface because they need the same things: a large legible script, a transport, a speed control and a position marker. In Aloud the script you dictate is the script the voice reads and the script the prompter scrolls."
+          }
+        ]
+      },
+      {
+        "h2": "How do you use it?",
+        "blocks": [
+          {
+            "ol": [
+              "<strong>Put a script in.</strong> Type it, paste it, load the sample, or switch to DICTATE and speak it.",
+              "<strong>Pick your mode.</strong> LISTEN to be read to, PROMPT to read it yourself.",
+              "<strong>Set the pace.</strong> Rate and pitch in listen mode; words per minute and type size in prompt mode.",
+              "<strong>Press play.</strong> Scrub the waveform to jump to any word, or use the arrow keys. Space plays and pauses, Escape stops."
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Does it work in my language?",
+        "blocks": [
+          {
+            "p": "Yes. Aloud reads any language you have a voice installed for, and the voice list is sorted so your own languages come first. Dictation listens in the language of the voice you cast."
+          },
+          {
+            "p": "Right-to-left scripts such as Arabic, Hebrew and Persian are laid out right-to-left. Chinese, Japanese, Korean and Thai are counted and paced by character rather than by word, because they are not written with spaces between words, and the teleprompter switches its dial from words per minute to characters per minute to match."
+          }
+        ]
+      },
+      {
+        "h2": "Is your text private?",
+        "blocks": [
+          {
+            "p": "<strong>In listen and teleprompter modes, yes.</strong> The speech is generated on your own device by your browser and operating system. Nothing you paste is uploaded, stored or sent to a server, and the tool keeps working with the network off. Your script is saved in your own browser so a stray refresh does not lose it."
+          },
+          {
+            "p": "<strong>Dictation is the exception, and it is worth knowing.</strong> Chrome and Edge transcribe by streaming your microphone audio to their own speech servers. That is how the Web Speech Recognition API works in those browsers, not a choice Aloud makes. Do not dictate anything confidential."
+          },
+          {
+            "p": "If you are on a shared or public computer, switch off <strong>saving to this browser</strong> in the footer. Nothing is then written to storage and anything already saved is deleted. Otherwise the next person to open this page in the same browser profile would see your script."
+          }
+        ]
+      },
+      {
+        "h2": "What speed should a teleprompter run at?",
+        "blocks": [
+          {
+            "p": "Aloud defaults to <strong>130 words per minute</strong>, a calm presenting pace. Conversational speech runs nearer 150 wpm and audiobook narration around 155. Rather than trust a number, read a paragraph out loud at the pace you actually want and adjust until the marker keeps up with you. Longer words are held longer, so the marker drifts the way real speech does instead of ticking like a metronome."
+          }
+        ]
+      }
+    ],
+    "faqHeading": "Common questions",
+    "faq": [
+      {
+        "q": "Is Aloud free to use?",
+        "a": "Yes. Aloud is free and needs no account or installation. It uses the speech engine already built into your browser and operating system, so there is no usage limit and no API cost."
+      },
+      {
+        "q": "Can I download the audio as an MP3?",
+        "a": "No. The browser speech engine plays audio directly and does not expose a recordable stream, so there is no file to save. Exporting audio requires a cloud text to speech service."
+      },
+      {
+        "q": "How long can the text be?",
+        "a": "There is no fixed limit and nothing is trimmed. Long scripts are split into sentence-sized pieces internally, which also avoids a Chrome bug that cuts speech off after about fifteen seconds. Pasting a long script returns you to the first word, so you are not left staring at the bottom of your own text."
+      },
+      {
+        "q": "Which browsers does Aloud work in?",
+        "a": "Text to speech works in Chrome, Edge, Safari and most modern browsers. The teleprompter works everywhere, since it needs no speech engine at all. Dictation relies on the Web Speech Recognition API and works in Chrome and Edge, and in recent versions of Safari."
+      },
+      {
+        "q": "Why do I have more voices on one device than another?",
+        "a": "The voice list comes from your operating system, not from Aloud. macOS, Windows, Android and iOS each ship different voices, and you can install more in your system settings. Aloud sorts the natural-sounding ones to the top and lets you audition any of them before casting."
+      },
+      {
+        "q": "Can it read languages other than English?",
+        "a": "Yes. Every voice installed on your device is listed with its language code, with your own languages grouped first. Cast a voice in that language and the script is read in it. The cast voice also sets the language dictation listens for."
+      }
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "code": "es",
+  "lang": "es",
+  "dir": "ltr",
+  "name": "Español",
+  "path": "/es/",
+  "meta": {
+    "title": "Aloud — Lector de voz, teleprónter y dictado gratis",
+    "description": "Pega cualquier texto y escúchalo en voz alta, úsalo como teleprónter o dicta con la voz. Tres herramientas en una app web gratuita. Sin registro ni instalación.",
+    "ogTitle": "Aloud — Lector de voz, teleprónter y dictado gratis",
+    "ogDescription": "Escucha cualquier texto en voz alta, úsalo como teleprónter o dicta con la voz. Gratis, en el navegador.",
+    "ogAlt": "Aloud: texto a voz, teleprónter y dictado.",
+    "schemaDescription": "Aloud es una herramienta web gratuita que hace tres trabajos con un mismo guion: lee el texto en voz alta con la voz que elijas, muestra ese mismo texto como teleprónter y transcribe lo que dictas.",
+    "h1sr": " — lector de voz, teleprónter y dictado gratis en tu navegador",
+    "features": [
+      "Texto a voz con todas las voces instaladas en el dispositivo",
+      "Resaltado palabra por palabra mientras se lee",
+      "Teleprónter con palabras por minuto ajustables",
+      "Modo espejo para el cristal del teleprónter",
+      "Dictado por voz (voz a texto)",
+      "Forma de onda navegable generada a partir del guion",
+      "Compatible con escritura de derecha a izquierda y con CJK",
+      "Temas oscuro y claro",
+      "Funciona sin cuenta ni instalación"
+    ]
+  },
+  "ui": {
+    "modeListen": "ESCUCHAR",
+    "modePrompt": "TELEPRÓNTER",
+    "modeDictate": "DICTAR",
+    "standby": "EN ESPERA",
+    "onAir": "AL AIRE",
+    "held": "EN PAUSA",
+    "recording": "GRABANDO",
+    "cast": "VOZ",
+    "daylight": "CLARO",
+    "booth": "ESTUDIO",
+    "themeSwitch": "Cambiar tema",
+    "castTitle": "Reparto de voces",
+    "castLead": "Todas las voces instaladas en este equipo. Escucha una prueba antes de elegir.",
+    "castFilter": "Filtrar por nombre o idioma",
+    "close": "CERRAR",
+    "groupYours": "TUS IDIOMAS",
+    "groupOther": "OTROS IDIOMAS",
+    "tagOnAir": "AL AIRE",
+    "audition": "PROBAR",
+    "noMatch": "Ninguna voz coincide con eso.",
+    "auditionLine": "Hola. Soy {name}. Así es como sueno.",
+    "rate": "VELOCIDAD",
+    "pitch": "TONO",
+    "pace": "RITMO",
+    "size": "TAMAÑO",
+    "mirror": "ESPEJO",
+    "mirrorTitle": "Invertir para el cristal del teleprónter",
+    "full": "PANTALLA",
+    "fullTitle": "Pantalla completa",
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "playTitle": "Reproducir — Espacio",
+    "record": "Grabar",
+    "recordTitle": "Grabar — Espacio",
+    "stopRec": "Detener la grabación",
+    "stopRecTitle": "Detener la grabación — Espacio",
+    "jumpBack": "VOLVER A LA LÍNEA HABLADA",
+    "loadSample": "cargar un ejemplo",
+    "hearBack": "escúchalo",
+    "copy": "copiar",
+    "copied": "copiado",
+    "download": "descargar",
+    "saved": "guardado",
+    "clear": "borrar",
+    "undoClear": "deshacer",
+    "emptyListen": "Escribe o pega un guion, o",
+    "emptyDictate": "Nada todavía: pulsa grabar, o",
+    "statWords": "palabras",
+    "statChars": "caracteres",
+    "statSpeech": "{n} {unit} · {t} de audio",
+    "statPrompt": "{n} {unit} · {t} de lectura",
+    "micNote": "Chrome envía el audio del micrófono a sus propios servidores para transcribirlo. No dictes nada confidencial.",
+    "micBlocked": "Micrófono bloqueado. Permítelo en los ajustes del navegador para dictar.",
+    "noDictation": "El dictado necesita Chrome, Edge o una versión reciente de Safari.",
+    "labelScript": "Guion para leer en voz alta",
+    "labelPrompt": "Guion del teleprónter",
+    "fileName": "guion-aloud.txt",
+    "keyPlay": "reproducir",
+    "keyStop": "detener",
+    "keyScrub": "desplazar",
+    "remembering": "guardando en este navegador",
+    "notRemembering": "sin guardar",
+    "rememberOnTitle": "Tu guion se conserva en este navegador para que una recarga no lo pierda. Haz clic para dejar de guardar.",
+    "rememberOffTitle": "No se guarda nada. Haz clic para conservar el guion entre recargas."
+  },
+  "guide": {
+    "listen": {
+      "line": "Di algo.",
+      "sub": "Pega un guion, elige una voz y pulsa reproducir para escucharlo en voz alta."
+    },
+    "prompt": {
+      "line": "Pega tu guion.",
+      "sub": "Pulsa reproducir y se desplazará a tu ritmo mientras lo lees a cámara."
+    },
+    "dictate": {
+      "line": "Pulsa grabar y habla.",
+      "sub": "Tus palabras se convierten en el guion. Di “nueva línea”, “coma” o “punto” para puntuar. Haz clic aquí para empezar."
+    }
+  },
+  "a11y": {
+    "playing": "Reproduciendo.",
+    "paused": "En pausa.",
+    "resumed": "Reanudado.",
+    "stopped": "Detenido.",
+    "cleared": "Guion borrado. Puedes deshacerlo durante doce segundos.",
+    "restored": "Guion restaurado.",
+    "copied": "Guion copiado al portapapeles.",
+    "downloaded": "Guion descargado.",
+    "readingBack": "Leyendo tu dictado en voz alta.",
+    "recording": "Grabando. Habla ahora.",
+    "recStopped": "Grabación detenida.",
+    "micDenied": "Permiso de micrófono denegado.",
+    "scriptRestored": "Se ha restaurado tu último guion.",
+    "mirrorOn": "Invertido para el cristal del teleprónter.",
+    "mirrorOff": "Espejo desactivado.",
+    "noDictation": "Este navegador no admite el dictado. Prueba con Chrome o Edge.",
+    "castOf": "{name} elegida, {lang}.",
+    "auditionOf": "Probar {name}",
+    "pasted": "Pegadas {n} palabras. Listo para reproducir.",
+    "modeListen": "Modo escuchar. Una voz te lee el guion.",
+    "modePrompt": "Modo teleprónter. Tú lees en voz alta y el guion se desplaza a tu ritmo.",
+    "modeDictate": "Modo dictado. Pulsa grabar y habla; tus palabras se convierten en el guion.",
+    "rememberOn": "Tu guion se conservará en este navegador.",
+    "rememberOff": "Guardado desactivado. Se ha eliminado el guion almacenado."
+  },
+  "sample": "La forma más rápida de saber si un texto funciona es escucharlo.\n\nLee una frase en voz alta y las partes flojas se delatan solas. Una oración demasiado larga te obliga a respirar donde no toca. Una palabra que elegiste porque sonaba ingeniosa resulta difícil de pronunciar.\n\nAsí que pega algo aquí. Un artículo que guardaste y nunca terminaste. El borrador de un correo antes de enviarlo. Un capítulo que quieres escuchar mientras friegas los platos. Elige una voz, ajusta la velocidad que te convenga y sigue el marcador por la página.",
+  "content": {
+    "langLabel": "Idioma",
+    "footer": "Aloud — texto a voz, teleprónter y dictado. Funciona en tu navegador.",
+    "sitemap": "Mapa del sitio",
+    "sections": [
+      {
+        "h2": "¿Qué es Aloud?",
+        "blocks": [
+          {
+            "p": "<strong>Aloud es una herramienta web gratuita que hace tres trabajos con un mismo guion.</strong> Lee tu texto en voz alta con cualquier voz instalada en tu dispositivo, muestra ese mismo texto como teleprónter mientras presentas y toma dictado para que escribas hablando. Nada que instalar, sin cuenta y sin límite de uso, porque el motor de voz es el que ya trae tu navegador."
+          }
+        ]
+      },
+      {
+        "h2": "¿Qué diferencia hay entre texto a voz, lectura en voz alta y teleprónter?",
+        "blocks": [
+          {
+            "p": "Se usan como sinónimos, pero son tres cosas distintas, y la diferencia está simplemente en <strong>quién habla</strong>."
+          },
+          {
+            "cards": [
+              {
+                "tag": "ESCUCHAR",
+                "h3": "Texto a voz y lectura guiada",
+                "p": "La máquina habla y tú escuchas. La lectura guiada añade un resaltado sincronizado para que sigas las palabras en pantalla mientras suenan. Útil para revisar textos, leer artículos y para accesibilidad."
+              },
+              {
+                "tag": "TELEPRÓNTER",
+                "h3": "Teleprónter",
+                "p": "Hablas tú. El guion se desplaza al ritmo que fijes para que leas mirando a la cámara. No interviene ninguna voz sintética. Útil para vídeos, charlas y piezas a cámara."
+              },
+              {
+                "tag": "DICTAR",
+                "h3": "Voz a texto",
+                "p": "Tú hablas y la máquina escribe. Tus palabras se convierten en el guion, que luego puedes escuchar o pasar por el teleprónter. Útil para redactar sin teclear."
+              }
+            ]
+          },
+          {
+            "p": "Comparten una misma interfaz porque necesitan lo mismo: un guion grande y legible, controles de reproducción, un ajuste de velocidad y un marcador de posición. En Aloud el guion que dictas es el guion que lee la voz y el que desplaza el teleprónter."
+          }
+        ]
+      },
+      {
+        "h2": "¿Cómo se usa?",
+        "blocks": [
+          {
+            "ol": [
+              "<strong>Pon un guion.</strong> Escríbelo, pégalo, carga el ejemplo o cambia a DICTAR y háblalo.",
+              "<strong>Elige el modo.</strong> ESCUCHAR para que te lo lean, TELEPRÓNTER para leerlo tú.",
+              "<strong>Ajusta el ritmo.</strong> Velocidad y tono en modo escuchar; palabras por minuto y tamaño de letra en modo teleprónter.",
+              "<strong>Pulsa reproducir.</strong> Arrastra por la forma de onda para saltar a cualquier palabra, o usa las flechas. Espacio reproduce y pausa, Escape detiene."
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "¿Funciona en mi idioma?",
+        "blocks": [
+          {
+            "p": "Sí. Aloud lee cualquier idioma para el que tengas una voz instalada, y la lista de voces se ordena para que tus idiomas aparezcan primero. El dictado escucha en el idioma de la voz que elijas."
+          },
+          {
+            "p": "Las escrituras de derecha a izquierda como el árabe, el hebreo y el persa se presentan de derecha a izquierda. El chino, el japonés, el coreano y el tailandés se cuentan y se cronometran por carácter en lugar de por palabra, porque no se escriben separando las palabras con espacios, y el teleprónter cambia su control de palabras por minuto a caracteres por minuto."
+          }
+        ]
+      },
+      {
+        "h2": "¿Es privado tu texto?",
+        "blocks": [
+          {
+            "p": "<strong>En los modos escuchar y teleprónter, sí.</strong> La voz se genera en tu propio dispositivo, con tu navegador y tu sistema operativo. Nada de lo que pegas se sube, se almacena ni se envía a un servidor, y la herramienta sigue funcionando sin conexión. Tu guion se guarda en tu propio navegador para que una recarga accidental no lo pierda."
+          },
+          {
+            "p": "<strong>El dictado es la excepción, y conviene saberlo.</strong> Chrome y Edge transcriben enviando el audio de tu micrófono a sus propios servidores. Así funciona la API de reconocimiento de voz de la web en esos navegadores; no es una decisión de Aloud. No dictes nada confidencial."
+          },
+          {
+            "p": "Si usas un equipo compartido o público, desactiva <strong>guardando en este navegador</strong> en el pie de página. Así no se escribe nada y se borra lo ya guardado. De lo contrario, la siguiente persona que abra esta página en el mismo perfil del navegador vería tu guion."
+          }
+        ]
+      },
+      {
+        "h2": "¿A qué velocidad debe ir un teleprónter?",
+        "blocks": [
+          {
+            "p": "Aloud usa por defecto <strong>130 palabras por minuto</strong>, un ritmo de presentación tranquilo. El habla conversacional ronda las 150 y la narración de audiolibros unas 155. En vez de fiarte de una cifra, lee un párrafo en voz alta al ritmo que realmente quieres y ajusta hasta que el marcador te siga. Las palabras largas se sostienen más tiempo, así que el marcador avanza como el habla real en lugar de marcar el compás como un metrónomo."
+          }
+        ]
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Aloud es gratis?",
+        "a": "Sí. Aloud es gratuito y no requiere cuenta ni instalación. Usa el motor de voz que ya viene con tu navegador y tu sistema operativo, así que no hay límite de uso ni coste de API."
+      },
+      {
+        "q": "¿Puedo descargar el audio en MP3?",
+        "a": "No. El motor de voz del navegador reproduce el audio directamente y no expone una señal grabable, así que no hay ningún archivo que guardar. Exportar audio requiere un servicio de texto a voz en la nube."
+      },
+      {
+        "q": "¿Cuánto puede ocupar el texto?",
+        "a": "No hay límite fijo y no se recorta nada. Los guiones largos se dividen internamente en fragmentos del tamaño de una frase, lo que además evita un fallo de Chrome que corta la voz a los quince segundos aproximadamente. Al pegar un guion largo vuelves a la primera palabra, para que no te quedes mirando el final de tu propio texto."
+      },
+      {
+        "q": "¿En qué navegadores funciona Aloud?",
+        "a": "El texto a voz funciona en Chrome, Edge, Safari y la mayoría de navegadores modernos. El teleprónter funciona en todos, porque no necesita motor de voz. El dictado depende de la API de reconocimiento de voz y funciona en Chrome, Edge y versiones recientes de Safari."
+      },
+      {
+        "q": "¿Por qué tengo más voces en un dispositivo que en otro?",
+        "a": "La lista de voces viene de tu sistema operativo, no de Aloud. macOS, Windows, Android e iOS incluyen voces distintas, y puedes instalar más desde los ajustes del sistema. Aloud coloca arriba las que suenan más naturales y te deja probar cualquiera antes de elegirla."
+      },
+      {
+        "q": "¿Puede leer idiomas distintos del español?",
+        "a": "Sí. Todas las voces instaladas en tu dispositivo aparecen con su código de idioma y tus propios idiomas se agrupan primero. Elige una voz en ese idioma y el guion se leerá en él. La voz elegida también fija el idioma que escucha el dictado."
+      }
+    ]
+  }
+}
