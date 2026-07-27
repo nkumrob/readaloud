@@ -39,6 +39,11 @@ per-language.
 - **Privacy.** Scripts are kept in `localStorage` only, and the footer toggle switches
   that off and deletes what is stored. Dictation is the exception: Chrome and Edge stream
   microphone audio to their own servers to transcribe it.
+- **Analytics and ads** are both switches in `src/site.json`. `analyticsId` injects GA4 with
+  Consent Mode v2 (ad and analytics storage denied by default across the EEA, UK and
+  Switzerland, granted elsewhere); `adsensePublisherId` injects the AdSense tag and writes
+  `ads.txt`. Changing either means the privacy policy in all six locales must be changed to
+  match — it names exactly what is loaded.
 - Audio cannot be exported — the browser speech engine exposes no recordable stream.
 
 ## Licence
