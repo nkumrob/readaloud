@@ -39,6 +39,25 @@ const adsTag = () => ADS_ON
   ? `\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${PUB}" crossorigin="anonymous"></script>`
   : '';
 
+/* Analytics, with Consent Mode v2 denied by default across the EEA, the UK and
+   Switzerland. Nothing is stored for those visitors until a consent tool grants
+   it; everywhere else measurement starts immediately. */
+const GA = (SITE.analyticsId || '').trim();
+const GA_ON = /^G-[A-Z0-9]+$/.test(GA);
+const EEA = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'];
+const gaTag = () => GA_ON ? `
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GA}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500,region:${JSON.stringify(EEA)}});
+gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});
+gtag('js', new Date());
+gtag('config','${GA}',{anonymize_ip:true});
+</script>` : '';
+
+const headTags = () => gaTag() + adsTag();
+
 // fill {{tokens}} from site.json so no policy ships with a stale detail
 const site = s => String(s)
   .replace(/\{\{operator\}\}/g, esc(SITE.operator))
@@ -198,7 +217,7 @@ ${alts}
 <meta name="robots" content="index,follow">
 <meta name="theme-color" content="#08090a" media="(prefers-color-scheme: dark)">
 <meta name="color-scheme" content="dark light">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2308090a'/%3E%3Cg fill='%23ccff33'%3E%3Crect x='6' y='13' width='2.6' height='6' rx='1.3'/%3E%3Crect x='11' y='9' width='2.6' height='14' rx='1.3'/%3E%3Crect x='16' y='6' width='2.6' height='20' rx='1.3'/%3E%3Crect x='21' y='11' width='2.6' height='10' rx='1.3'/%3E%3C/g%3E%3C/svg%3E">${adsTag()}`;
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2308090a'/%3E%3Cg fill='%23ccff33'%3E%3Crect x='6' y='13' width='2.6' height='6' rx='1.3'/%3E%3Crect x='11' y='9' width='2.6' height='14' rx='1.3'/%3E%3Crect x='16' y='6' width='2.6' height='20' rx='1.3'/%3E%3C/g%3E%3C/svg%3E">${headTags()}`;
 
   const depth = docPath(L, name).split('/').filter(Boolean).length;
   return DOC
@@ -238,7 +257,7 @@ for (const L of locales) {
     ? path.join(ROOT, 'index.html')
     : path.join(ROOT, L.path.replace(/^\/|\/$/g, ''), 'index.html');
   fs.mkdirSync(path.dirname(out), { recursive: true });
-  fs.writeFileSync(out, page.replace('</head>', adsTag() + '\n</head>'));
+  fs.writeFileSync(out, page.replace('</head>', headTags() + '\n</head>'));
   written.push(path.relative(ROOT, out));
 
   for (const name of DOC_PAGES) {
@@ -284,6 +303,7 @@ console.log(`origin  ${ORIGIN}`);
 console.log(`locales ${locales.map(l => l.code).join(', ')}`);
 console.log(`pages   ${written.length} (${locales.length} app + ${written.length - locales.length} doc)`);
 console.log(`ads     ${ADS_ON ? PUB + ' — tag injected, ads.txt written' : 'off (no publisher id in src/site.json)'}`);
+console.log(`ga      ${GA_ON ? GA + ' — consent mode v2, denied by default in the EEA/UK/CH' : 'off'}`);
 console.log(`sitemap ${urls.length} urls`);
 
 const unset = Object.entries(SITE)

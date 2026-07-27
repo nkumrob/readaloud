@@ -297,13 +297,25 @@
           "h2": "Polices et tiers"
         },
         {
-          "p": "Les polices sont servies depuis ce site et non depuis Google Fonts : charger une page ne révèle donc pas votre adresse IP à un fournisseur de polices. En dehors de l'hébergement, de la publicité lorsqu'elle est activée et des services vocaux du navigateur décrits ci-dessus, le site n'effectue aucune requête vers des tiers."
+          "p": "Les polices sont servies depuis ce site et non depuis Google Fonts : charger une page ne révèle donc pas votre adresse IP à un fournisseur de polices. En dehors de l'hébergement, de la mesure d'audience décrite ci-dessous, de la publicité lorsqu'elle est activée et des services vocaux du navigateur, le site n'effectue aucune requête vers des tiers."
+        },
+        {
+          "h2": "Mesure d'audience"
+        },
+        {
+          "p": "Nous utilisons Google Analytics 4 pour compter les visites et voir quelles pages et quelles langues servent réellement. Il enregistre les pages vues, une localisation approximative déduite de votre adresse IP, le type d'appareil et le site d'origine. <strong>Il ne reçoit jamais le texte que vous saisissez, collez ou dictez</strong>, car ce texte ne quitte pas votre navigateur."
+        },
+        {
+          "p": "Google Analytics dépose des cookies pour reconnaître une visite récurrente, et les adresses IP sont tronquées avant stockage. Ce que nous voyons, ce sont des comptages, pas des personnes : rien de tout cela ne permet de vous identifier."
+        },
+        {
+          "p": "Vous pouvez refuser Google Analytics sur tous les sites grâce au <a href=\"https://tools.google.com/dlpage/gaoptout\" rel=\"nofollow noopener\" target=\"_blank\">module de navigateur</a> de Google, ou en refusant dans la fenêtre de consentement lorsqu'elle apparaît."
         },
         {
           "h2": "Publicité et cookies"
         },
         {
-          "p": "Aloud ne dépose aucun cookie propre et n'utilise aucune mesure d'audience."
+          "p": "Aloud ne dépose aucun cookie propre. Google Analytics en dépose, et Google AdSense également lorsque la publicité est activée. Les deux sont décrits ici."
         },
         {
           "p": "Si la publicité est activée sur ce site, elle est diffusée par Google AdSense. Google et ses partenaires peuvent alors déposer des cookies ou lire des identifiants d'appareil pour diffuser et mesurer des annonces, y compris des annonces personnalisées lorsque vous y avez consenti. L'usage des cookies publicitaires par Google est décrit dans ses <a href=\"https://policies.google.com/technologies/ads\" rel=\"nofollow noopener\" target=\"_blank\">règles publicitaires</a>, et vous pouvez consulter ou modifier vos préférences sur <a href=\"https://myadcenter.google.com\" rel=\"nofollow noopener\" target=\"_blank\">My Ad Center</a>."
@@ -315,7 +327,7 @@
           "h2": "Si vous êtes dans l'EEE, au Royaume-Uni ou en Suisse"
         },
         {
-          "p": "Lorsque la publicité est activée, un choix de consentement vous est présenté avant tout dépôt de cookie publicitaire, via une plateforme de consentement certifiée par Google. Vous pouvez modifier ou retirer ce choix à tout moment depuis le lien de confidentialité que l'outil de consentement laisse sur la page."
+          "p": "Si vous êtes dans l'une de ces régions, <strong>le stockage à des fins de mesure et de publicité est désactivé avant même le chargement de la page</strong> et le reste tant que vous n'avez pas consenti. C'est appliqué dans la page elle-même via le mode consentement de Google, ce n'est pas une simple promesse. Lorsqu'une fenêtre de consentement est affichée, vous pouvez modifier ou retirer ce choix à tout moment depuis le lien de confidentialité qu'elle laisse sur la page."
         },
         {
           "p": "Vous avez le droit de demander quelles données personnelles nous détenons, d'en obtenir la rectification ou l'effacement, de vous opposer au traitement et d'introduire une réclamation auprès de votre autorité de protection des données. En pratique nous ne détenons presque rien : la réponse honnête à une demande est généralement que les seules données vous concernant se trouvent dans votre propre navigateur, où vous pouvez les supprimer vous-même."

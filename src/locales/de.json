@@ -297,13 +297,25 @@
           "h2": "Schriften und Dritte"
         },
         {
-          "p": "Die Schriften werden von dieser Website selbst ausgeliefert und nicht von Google Fonts. Das Laden einer Seite gibt Ihre IP-Adresse also an keinen Schriftanbieter weiter. Abgesehen vom Hosting, von Werbung sofern aktiviert und von den oben beschriebenen Sprachdiensten des Browsers stellt die Seite keine Anfragen an Dritte."
+          "p": "Die Schriften werden von dieser Website selbst ausgeliefert und nicht von Google Fonts. Das Laden einer Seite gibt Ihre IP-Adresse also an keinen Schriftanbieter weiter. Abgesehen vom Hosting, der unten beschriebenen Reichweitenmessung, von Werbung sofern aktiviert und von den Sprachdiensten des Browsers stellt die Seite keine Anfragen an Dritte."
+        },
+        {
+          "h2": "Reichweitenmessung"
+        },
+        {
+          "p": "Wir nutzen Google Analytics 4, um Besuche zu zählen und zu sehen, welche Seiten und Sprachen tatsächlich genutzt werden. Erfasst werden Seitenaufrufe, ein aus der IP-Adresse abgeleiteter ungefährer Standort, Gerätetyp und verweisende Seite. <strong>Der Text, den Sie eingeben, einfügen oder diktieren, wird nie übermittelt</strong>, denn er verlässt Ihren Browser nicht."
+        },
+        {
+          "p": "Google Analytics setzt Cookies, um einen wiederkehrenden Besuch zu erkennen; IP-Adressen werden vor der Speicherung gekürzt. Wir sehen Zahlen, keine Personen: identifizieren lässt sich daraus niemand."
+        },
+        {
+          "p": "Sie können Google Analytics auf allen Websites über das <a href=\"https://tools.google.com/dlpage/gaoptout\" rel=\"nofollow noopener\" target=\"_blank\">Browser-Add-on</a> von Google abschalten oder in der Einwilligungsabfrage ablehnen, wo eine angezeigt wird."
         },
         {
           "h2": "Werbung und Cookies"
         },
         {
-          "p": "Aloud setzt keine eigenen Cookies und verwendet keine Analysewerkzeuge."
+          "p": "Aloud setzt keine eigenen Cookies. Google Analytics tut das, und Google AdSense ebenfalls, sofern Werbung aktiviert ist. Beides wird hier beschrieben."
         },
         {
           "p": "Ist auf dieser Seite Werbung aktiviert, wird sie von Google AdSense ausgeliefert. Google und seine Partner können dann Cookies setzen oder Gerätekennungen auslesen, um Anzeigen auszuliefern und zu messen, einschließlich personalisierter Anzeigen, sofern Sie eingewilligt haben. Googles Umgang mit Werbe-Cookies ist in den <a href=\"https://policies.google.com/technologies/ads\" rel=\"nofollow noopener\" target=\"_blank\">Werberichtlinien</a> beschrieben; Ihre Einstellungen können Sie unter <a href=\"https://myadcenter.google.com\" rel=\"nofollow noopener\" target=\"_blank\">My Ad Center</a> einsehen und ändern."
@@ -315,7 +327,7 @@
           "h2": "Wenn Sie im EWR, im Vereinigten Königreich oder in der Schweiz sind"
         },
         {
-          "p": "Wo Werbung aktiviert ist, wird Ihnen vor dem Setzen eines Werbe-Cookies eine Einwilligungsabfrage angezeigt, ausgeliefert über eine von Google zertifizierte Consent-Plattform. Sie können diese Entscheidung jederzeit über den Datenschutz-Link ändern oder widerrufen, den das Consent-Werkzeug auf der Seite hinterlässt."
+          "p": "Wenn Sie sich in einer dieser Regionen befinden, <strong>ist die Speicherung für Messung und Werbung bereits vor dem Laden der Seite abgeschaltet</strong> und bleibt es, solange Sie nicht einwilligen. Das wird in der Seite selbst über Googles Consent Mode durchgesetzt und nicht bloß zugesagt. Wo eine Einwilligungsabfrage erscheint, können Sie Ihre Entscheidung jederzeit über den Datenschutz-Link ändern oder widerrufen, den sie auf der Seite hinterlässt."
         },
         {
           "p": "Sie haben das Recht, Auskunft über die zu Ihnen gespeicherten personenbezogenen Daten zu verlangen, deren Berichtigung oder Löschung zu fordern, der Verarbeitung zu widersprechen und sich bei Ihrer Datenschutzaufsichtsbehörde zu beschweren. Praktisch halten wir fast nichts: Die ehrliche Antwort auf eine Auskunftsanfrage lautet meist, dass die einzigen Daten über Sie in Ihrem eigenen Browser liegen, wo Sie sie selbst löschen können."

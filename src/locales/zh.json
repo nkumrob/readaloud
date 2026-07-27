@@ -297,13 +297,25 @@
           "h2": "字体与第三方"
         },
         {
-          "p": "字体由本站自身提供，而非来自 Google Fonts，因此打开页面不会把你的 IP 地址透露给字体服务商。除托管、启用时的广告，以及上述浏览器自带的语音服务之外，本站不发起任何第三方请求。"
+          "p": "字体由本站自身提供，而非来自 Google Fonts，因此打开页面不会把你的 IP 地址透露给字体服务商。除托管、下文所述的分析、启用时的广告，以及浏览器自带的语音服务之外，本站不发起任何第三方请求。"
+        },
+        {
+          "h2": "分析统计"
+        },
+        {
+          "p": "我们使用 Google Analytics 4 统计访问量，了解哪些页面和语言真正被使用。它会记录页面浏览、由 IP 地址推断的大致位置、设备类型和来源网站。<strong>它绝不会收到你输入、粘贴或口述的文字</strong>，因为那些文字从不离开你的浏览器。"
+        },
+        {
+          "p": "Google Analytics 会设置 Cookie 以识别回访，IP 地址在存储前会被截断。我们看到的是数字，不是个人：凭这些无法识别你的身份。"
+        },
+        {
+          "p": "你可以通过 Google 的<a href=\"https://tools.google.com/dlpage/gaoptout\" rel=\"nofollow noopener\" target=\"_blank\">浏览器插件</a>在所有网站上停用 Google Analytics，或在出现同意提示时选择拒绝。"
         },
         {
           "h2": "广告与 Cookie"
         },
         {
-          "p": "Aloud 不设置自有 Cookie，也不使用任何分析工具。"
+          "p": "Aloud 不设置自有 Cookie。但 Google Analytics 会设置，启用广告时 Google AdSense 也会。两者都在本页说明。"
         },
         {
           "p": "如果本站启用了广告，则由 Google AdSense 提供。届时 Google 及其合作伙伴可能会设置 Cookie 或读取设备标识符，用于投放和衡量广告，包括在你同意的情况下投放个性化广告。Google 对广告 Cookie 的使用说明见其<a href=\"https://policies.google.com/technologies/ads\" rel=\"nofollow noopener\" target=\"_blank\">广告政策</a>，你可以在 <a href=\"https://myadcenter.google.com\" rel=\"nofollow noopener\" target=\"_blank\">My Ad Center</a> 查看或更改设置。"
@@ -315,7 +327,7 @@
           "h2": "如果你在欧洲经济区、英国或瑞士"
         },
         {
-          "p": "在启用广告的情况下，系统会在设置任何广告 Cookie 之前，通过经 Google 认证的同意管理平台向你展示同意选项。你可以随时通过同意工具留在页面上的隐私链接更改或撤回该选择。"
+          "p": "如果你位于上述地区，<strong>分析与广告相关的存储在页面加载之前就已关闭</strong>，且在你同意之前始终保持关闭。这是通过 Google 的同意模式在页面内实际执行的，而不仅仅是一句承诺。在显示同意提示的地方，你可以随时通过它留在页面上的隐私链接更改或撤回该选择。"
         },
         {
           "p": "你有权询问我们持有你的哪些个人数据，要求更正或删除，反对处理，并向你所在地的数据保护机构投诉。实际上我们几乎什么都没有：对数据请求最诚实的回答通常是，唯一与你有关的数据就在你自己的浏览器里，你可以自行删除。"

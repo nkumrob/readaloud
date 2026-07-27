@@ -297,13 +297,25 @@
           "h2": "Tipografías y terceros"
         },
         {
-          "p": "Las tipografías se sirven desde este mismo sitio y no desde Google Fonts, así que cargar una página no revela tu dirección IP a un proveedor de fuentes. Aparte del alojamiento, de la publicidad cuando esté activada y de los servicios de voz del propio navegador ya descritos, el sitio no hace peticiones a terceros."
+          "p": "Las tipografías se sirven desde este mismo sitio y no desde Google Fonts, así que cargar una página no revela tu dirección IP a un proveedor de fuentes. Aparte del alojamiento, de la analítica descrita más abajo, de la publicidad cuando esté activada y de los servicios de voz del propio navegador, el sitio no hace peticiones a terceros."
+        },
+        {
+          "h2": "Analítica"
+        },
+        {
+          "p": "Usamos Google Analytics 4 para contar visitas y ver qué páginas e idiomas se usan realmente. Registra páginas vistas, ubicación aproximada deducida de tu dirección IP, tipo de dispositivo y sitio de procedencia. <strong>Nunca recibe el texto que escribes, pegas o dictas</strong>, porque ese texto no sale de tu navegador."
+        },
+        {
+          "p": "Google Analytics instala cookies para reconocer una visita recurrente, y las direcciones IP se truncan antes de almacenarse. Lo que vemos son recuentos, no personas: no podemos identificarte a partir de nada de ello."
+        },
+        {
+          "p": "Puedes desactivar Google Analytics en todos los sitios con el <a href=\"https://tools.google.com/dlpage/gaoptout\" rel=\"nofollow noopener\" target=\"_blank\">complemento de navegador</a> de Google, o rechazándolo en el aviso de consentimiento cuando se muestre."
         },
         {
           "h2": "Publicidad y cookies"
         },
         {
-          "p": "Aloud no instala cookies propias ni utiliza analítica."
+          "p": "Aloud no instala cookies propias. Google Analytics sí lo hace, y Google AdSense también cuando la publicidad está activada. Ambos se describen aquí."
         },
         {
           "p": "Si la publicidad está activada en este sitio, la sirve Google AdSense. Google y sus socios pueden entonces instalar cookies o leer identificadores del dispositivo para mostrar y medir anuncios, incluidos anuncios personalizados cuando hayas dado tu consentimiento. El uso de cookies publicitarias por parte de Google se describe en sus <a href=\"https://policies.google.com/technologies/ads\" rel=\"nofollow noopener\" target=\"_blank\">políticas de publicidad</a>, y puedes revisar o cambiar tus preferencias en <a href=\"https://myadcenter.google.com\" rel=\"nofollow noopener\" target=\"_blank\">My Ad Center</a>."
@@ -315,7 +327,7 @@
           "h2": "Si estás en el EEE, el Reino Unido o Suiza"
         },
         {
-          "p": "Cuando la publicidad está activada, se te muestra una opción de consentimiento antes de instalar cualquier cookie publicitaria, mediante una plataforma de consentimiento certificada por Google. Puedes cambiar o retirar esa decisión en cualquier momento desde el enlace de privacidad que la herramienta de consentimiento deja en la página."
+          "p": "Si estás en una de esas regiones, <strong>el almacenamiento analítico y publicitario se desactiva antes de que cargue la página</strong> y permanece desactivado salvo que des tu consentimiento. Esto se aplica en la propia página mediante el modo de consentimiento de Google, no es solo una promesa. Cuando se muestre un aviso de consentimiento, puedes cambiar o retirar esa decisión en cualquier momento desde el enlace de privacidad que deja en la página."
         },
         {
           "p": "Tienes derecho a preguntar qué datos personales tenemos, a que se corrijan o se supriman, a oponerte al tratamiento y a reclamar ante tu autoridad de protección de datos. En la práctica no tenemos casi nada: la respuesta honesta a una solicitud suele ser que los únicos datos sobre ti están en tu propio navegador, donde puedes borrarlos tú mismo."

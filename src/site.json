@@ -10,6 +10,6 @@
   "_adsense": "Leave empty to ship with no ads and no third-party requests. Set to your ca-pub-XXXXXXXXXXXXXXXX id to inject the AdSense tag and generate ads.txt. Google's certified CMP is then enabled from the AdSense dashboard under Privacy & messaging — it is delivered through this same tag, so no separate consent script is needed.",
   "adsensePublisherId": "",
 
-  "_analytics": "No analytics are used. Adding any means updating the privacy policy in all six locales.",
-  "analytics": false
+  "_analytics": "Google Analytics 4 measurement id, or empty for no analytics at all. Changing this means the privacy policy in all six locales must match reality.",
+  "analyticsId": "G-CZQSWJG7LG"
 }

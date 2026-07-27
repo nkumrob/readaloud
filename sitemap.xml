@@ -2,290 +2,290 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://readaloud-drab.vercel.app/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/"/>
+    <loc>https://readaloud.online/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/ar/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/"/>
+    <loc>https://readaloud.online/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/de/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/"/>
+    <loc>https://readaloud.online/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/es/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/"/>
+    <loc>https://readaloud.online/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/"/>
+    <loc>https://readaloud.online/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/zh/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/"/>
+    <loc>https://readaloud.online/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/privacy/"/>
+    <loc>https://readaloud.online/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/privacy/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/ar/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/privacy/"/>
+    <loc>https://readaloud.online/ar/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/privacy/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/de/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/privacy/"/>
+    <loc>https://readaloud.online/de/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/privacy/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/es/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/privacy/"/>
+    <loc>https://readaloud.online/es/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/privacy/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/fr/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/privacy/"/>
+    <loc>https://readaloud.online/fr/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/privacy/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/zh/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/privacy/"/>
+    <loc>https://readaloud.online/zh/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/privacy/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/terms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/terms/"/>
+    <loc>https://readaloud.online/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/terms/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/ar/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/terms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/terms/"/>
+    <loc>https://readaloud.online/ar/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/terms/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/de/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/terms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/terms/"/>
+    <loc>https://readaloud.online/de/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/terms/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/es/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/terms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/terms/"/>
+    <loc>https://readaloud.online/es/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/terms/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/fr/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/terms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/terms/"/>
+    <loc>https://readaloud.online/fr/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/terms/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/zh/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/terms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/terms/"/>
+    <loc>https://readaloud.online/zh/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/terms/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/about/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/about/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/about/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/about/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/about/"/>
+    <loc>https://readaloud.online/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/about/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/ar/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/about/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/about/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/about/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/about/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/about/"/>
+    <loc>https://readaloud.online/ar/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/about/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/de/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/about/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/about/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/about/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/about/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/about/"/>
+    <loc>https://readaloud.online/de/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/about/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/es/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/about/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/about/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/about/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/about/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/about/"/>
+    <loc>https://readaloud.online/es/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/about/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/fr/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/about/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/about/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/about/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/about/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/about/"/>
+    <loc>https://readaloud.online/fr/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/about/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://readaloud-drab.vercel.app/zh/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud-drab.vercel.app/about/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud-drab.vercel.app/ar/about/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud-drab.vercel.app/de/about/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud-drab.vercel.app/es/about/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud-drab.vercel.app/fr/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud-drab.vercel.app/zh/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud-drab.vercel.app/about/"/>
+    <loc>https://readaloud.online/zh/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readaloud.online/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://readaloud.online/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://readaloud.online/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://readaloud.online/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://readaloud.online/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://readaloud.online/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://readaloud.online/about/"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>

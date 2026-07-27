@@ -297,13 +297,25 @@
           "h2": "Fonts and third parties"
         },
         {
-          "p": "The typefaces are served from this site itself rather than from Google Fonts, so loading a page does not disclose your IP address to a font provider. Aside from hosting, advertising where enabled, and the browser's own speech services described above, the site makes no third-party requests."
+          "p": "The typefaces are served from this site itself rather than from Google Fonts, so loading a page does not disclose your IP address to a font provider. Aside from hosting, the analytics described below, advertising where enabled, and the browser's own speech services, the site makes no third-party requests."
+        },
+        {
+          "h2": "Analytics"
+        },
+        {
+          "p": "We use Google Analytics 4 to count visits and see which pages and languages are actually used. It records page views, approximate location derived from your IP address, device type and referring site. <strong>It never receives the text you type, paste or dictate</strong>, because that text never leaves your browser."
+        },
+        {
+          "p": "Google Analytics sets cookies to recognise a returning visit, and IP addresses are truncated before storage. What we see are counts, not people: we cannot identify you from any of it."
+        },
+        {
+          "p": "You can opt out of Google Analytics on every site with Google's <a href=\"https://tools.google.com/dlpage/gaoptout\" rel=\"nofollow noopener\" target=\"_blank\">browser add-on</a>, or by declining in the consent prompt where one is shown."
         },
         {
           "h2": "Advertising and cookies"
         },
         {
-          "p": "Aloud sets no cookies of its own and uses no analytics."
+          "p": "Aloud sets no cookies of its own. Google Analytics does, and Google AdSense does where advertising is enabled. Both are described here."
         },
         {
           "p": "If advertising is enabled on this site, it is served by Google AdSense. Google and its partners may then set cookies or read device identifiers to serve and measure ads, including personalised ads where you have consented. Google's use of advertising cookies is described in its <a href=\"https://policies.google.com/technologies/ads\" rel=\"nofollow noopener\" target=\"_blank\">advertising policies</a>, and you can review or change your ad settings at <a href=\"https://myadcenter.google.com\" rel=\"nofollow noopener\" target=\"_blank\">My Ad Center</a>."
@@ -315,7 +327,7 @@
           "h2": "If you are in the EEA, the UK or Switzerland"
         },
         {
-          "p": "Where advertising is enabled, you are shown a consent choice before any advertising cookie is set, delivered through a Google-certified consent platform. You can change or withdraw that choice at any time from the privacy link the consent tool leaves on the page."
+          "p": "If you are in one of those regions, <strong>analytics and advertising storage is switched off before the page loads</strong> and stays off unless you consent. This is enforced in the page itself using Google's consent mode, not merely promised. Where a consent prompt is shown you can change or withdraw that choice at any time from the privacy link it leaves on the page."
         },
         {
           "p": "You have the right to ask what personal data we hold, to have it corrected or erased, to object to processing and to complain to your data protection authority. In practice we hold almost nothing: the honest answer to a data request is usually that the only data about you is in your own browser, where you can delete it yourself."
