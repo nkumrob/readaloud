@@ -23,7 +23,7 @@ const DOC_PAGES = ['privacy', 'terms', 'about'];
 // the font faces live in app.html; reuse them verbatim so the doc pages match
 const FONT_FACES = (SRC.match(/@font-face\{[\s\S]*?unicode-range:[^}]+\}/g) || []).join('\n');
 
-// Affiliate card under the page header (English page only): Augusta Precious Metals' free gold/silver IRA guide.
+// Affiliate card at the top of the page, above the header (English page only): Augusta Precious Metals' free gold/silver IRA guide.
 // Copy kept inside Augusta's affiliate rules: no fear, urgency, price or "protect/hedge/diversify" claims, no advice.
 const RETIRE_CARD = `<style>.app{grid-template-rows:auto auto 1fr auto auto}</style>
 <aside aria-label="Sponsored" style="width:100%;max-width:1100px;margin:6px auto;padding:0 16px;box-sizing:border-box;position:relative;z-index:2">
@@ -266,7 +266,7 @@ for (const L of locales) {
     // the visually-hidden half of the h1, per locale
     .replace('&nbsp;— free text to speech, teleprompter and dictation in your browser', esc(L.meta.h1sr))
     .replace(' — free text to speech, teleprompter and dictation in your browser', esc(L.meta.h1sr))
-    .replace('</header>', '</header>' + (L.path === '/' ? '\n' + RETIRE_CARD : ''));
+    .replace('<header class="head', (L.path === '/' ? RETIRE_CARD + '\n' : '') + '<header class="head');
 
   const out = L.path === '/'
     ? path.join(ROOT, 'index.html')
