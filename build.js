@@ -25,7 +25,8 @@ const FONT_FACES = (SRC.match(/@font-face\{[\s\S]*?unicode-range:[^}]+\}/g) || [
 
 // Affiliate card under the page header (English page only): Augusta Precious Metals' free gold/silver IRA guide.
 // Copy kept inside Augusta's affiliate rules: no fear, urgency, price or "protect/hedge/diversify" claims, no advice.
-const RETIRE_CARD = `<aside aria-label="Sponsored" style="max-width:1100px;margin:12px auto;padding:0 16px">
+const RETIRE_CARD = `<style>.app{grid-template-rows:auto auto 1fr auto auto}</style>
+<aside aria-label="Sponsored" style="width:100%;max-width:1100px;margin:6px auto;padding:0 16px;box-sizing:border-box;position:relative;z-index:2">
 <div style="background:#FFF7E3;color:#1F1A0E;border:1px solid #E8D59A;border-radius:12px;padding:12px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;justify-content:space-between;box-shadow:0 2px 10px rgba(0,0,0,.12);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
 <div style="flex:1 1 320px;min-width:0">
 <p style="margin:0;font-size:16px;font-weight:700;line-height:1.35;color:#1F1A0E"><span style="font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#7A6A3A;margin-right:8px">Sponsored</span>Put your hard-earned retirement money to work</p>
