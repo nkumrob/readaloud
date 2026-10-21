@@ -23,6 +23,21 @@ const DOC_PAGES = ['privacy', 'terms', 'about'];
 // the font faces live in app.html; reuse them verbatim so the doc pages match
 const FONT_FACES = (SRC.match(/@font-face\{[\s\S]*?unicode-range:[^}]+\}/g) || []).join('\n');
 
+// Affiliate card (English page only): Augusta Precious Metals' free gold/silver IRA guide.
+// Copy kept inside Augusta's affiliate rules: no fear, urgency, price or "protect/hedge/diversify" claims, no advice.
+const RETIRE_CARD = `<aside aria-label="Sponsored" style="max-width:880px;margin:32px auto 0;padding:0 16px">
+<div style="border:1px solid rgba(127,127,127,.35);border-radius:14px;padding:20px 22px;display:flex;flex-wrap:wrap;align-items:center;gap:16px;justify-content:space-between;color:inherit">
+<div style="flex:1 1 360px;min-width:0">
+<p style="margin:0;font-size:12px;letter-spacing:.06em;text-transform:uppercase;opacity:.6">Sponsored</p>
+<p style="margin:4px 0 0;font-size:18px;font-weight:700;line-height:1.3">Put your hard-earned retirement money to work</p>
+<p style="margin:6px 0 0;font-size:15px;line-height:1.5;opacity:.8">Augusta Precious Metals&#39; free guide explains how a gold or silver IRA works.</p>
+</div>
+<a href="https://learn.augustapreciousmetals.com/apm-aff-lp-1-v3?apmtrkr_cid=1696&amp;aff_id=5459&amp;sub_id=web-readaloud" target="_blank" rel="sponsored noopener noreferrer" style="flex:0 0 auto;padding:11px 18px;border-radius:10px;background:#C9A227;color:#1a1406;font-weight:700;font-size:15px;text-decoration:none;white-space:nowrap">Get the free guide &rarr;</a>
+<p style="flex:1 1 100%;margin:0;font-size:12px;line-height:1.5;opacity:.55">Affiliate link: we may earn a commission at no cost to you. General information only, not financial, tax or investment advice.</p>
+</div>
+</aside>
+`;
+
 const LOCALE_DIR = path.join(ROOT, 'src/locales');
 const locales = fs.readdirSync(LOCALE_DIR)
   .filter(f => f.endsWith('.json'))
@@ -251,7 +266,8 @@ for (const L of locales) {
       }</script>`)
     // the visually-hidden half of the h1, per locale
     .replace('&nbsp;— free text to speech, teleprompter and dictation in your browser', esc(L.meta.h1sr))
-    .replace(' — free text to speech, teleprompter and dictation in your browser', esc(L.meta.h1sr));
+    .replace(' — free text to speech, teleprompter and dictation in your browser', esc(L.meta.h1sr))
+    .replace('<footer class="sitefoot">', (L.path === '/' ? RETIRE_CARD : '') + '<footer class="sitefoot">');
 
   const out = L.path === '/'
     ? path.join(ROOT, 'index.html')
